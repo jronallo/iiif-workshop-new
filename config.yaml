@@ -15,5 +15,5 @@ menu:
       url: "links/credits"
       weight: 20
     - name: License
-      url: "link/license"
+      url: "links/license"
       weight: 30
