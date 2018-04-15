@@ -2,3 +2,6 @@ baseURL: http://example.org/
 languageCode: en-us
 title: IIIF Technical Workshop
 theme: hugo-theme-learn
+
+outputs:
+  home: [ "HTML", "RSS", "JSON"]
