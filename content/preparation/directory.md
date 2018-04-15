@@ -2,7 +2,7 @@
 title: "Web Server Directory"
 menuTitle: "Web Directory"
 date: 2018-04-15T13:32:10-04:00
-weight: 30
+weight: 40
 ---
 
 1. **Create a directory/folder named "iiif-workshop"**

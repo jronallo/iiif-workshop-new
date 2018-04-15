@@ -2,7 +2,7 @@
 title: "Setting Up a Simple Local Web Server"
 menuTitle: "Web Server"
 date: 2018-04-15T13:32:02-04:00
-weight: 40
+weight: 30
 ---
 
 For some exercises to work, the files you will be editing need to be behind a web server.

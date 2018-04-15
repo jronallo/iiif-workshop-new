@@ -5,3 +5,15 @@ theme: hugo-theme-learn
 
 outputs:
   home: [ "HTML", "RSS", "JSON"]
+
+menu:
+  shortcuts:
+    - name: Feedback
+      url: "links/feedback"
+      weight: 10
+    - name: Credits
+      url: "links/credits"
+      weight: 20
+    - name: License
+      url: "link/license"
+      weight: 30
