@@ -4,8 +4,6 @@ date: 2018-04-15T14:02:40-04:00
 weight: 30
 ---
 
-# Validation
-
 IIIF runs an [image server validator][validator]. In order for the validator to work it requires that the image server deliver a carefully crafted image. Before # Validation
 
 IIIF runs an [image server validator][validator]. In order for the validator to work it requires that the image server deliver a carefully crafted image. Before you make your images available to the public you should validate your image server.

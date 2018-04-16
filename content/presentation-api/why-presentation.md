@@ -1,10 +1,9 @@
 ---
-title: "Why Presentation"
+title: Why a Presentation API?
+menuTitle: "Why Presentation?"
 date: 2018-04-15T14:48:11-04:00
 weight: 10
 ---
-
-# Why a Presentation API?
 
 http://iiif.io/api/presentation/2.1/#introduction
 

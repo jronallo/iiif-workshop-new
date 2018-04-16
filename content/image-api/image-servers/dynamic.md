@@ -1,10 +1,9 @@
 ---
-title: "Dynamic"
+title: "Dynamic Image Server"
+menuTitle: Dynamic
 date: 2018-04-15T14:02:35-04:00
 weight: 20
 ---
-
-# Dynamic Image Server
 
 ## Choosing an Image Server
 

@@ -6,7 +6,9 @@ weight: 4
 
 The [Image](image/README.md) and [Presentation](presentation/README.md) APIs are the core IIIF APIs. Start there for an understanding of what IIIF enables.
 
-> See [API Specifications - International Image Interoperability Framework](http://iiif.io/api/#current-specifications) for all the specifications.
+{{% notice note %}}
+See [API Specifications - International Image Interoperability Framework](http://iiif.io/api/#current-specifications) for all the specifications.
+{{% /notice %}}
 
 The Image API enables access to image pixels--the bits of a digital image.
 

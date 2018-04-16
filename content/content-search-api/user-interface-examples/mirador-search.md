@@ -1,10 +1,9 @@
 ---
-title: "Mirador Search"
+title: Mirador Content Search
+menuTitle: "Mirador Search"
 date: 2018-04-15T17:28:37-04:00
 weight: 20
 ---
-
-# Mirador Content Search
 
 Replace the object below with "The Biocrats" or the issue of the "Nubian Message".
 

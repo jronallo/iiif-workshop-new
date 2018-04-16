@@ -4,8 +4,6 @@ date: 2018-04-15T14:02:52-04:00
 weight: 80
 ---
 
-# Creating Images
-
 ## For an Image Server
 
 If you've decided to deploy an image server, you'll probably want to create an access derivative source image which is separate from your master preservation version of the image.

@@ -4,8 +4,6 @@ date: 2018-04-15T14:51:01-04:00
 weight: 20
 ---
 
-# Mirador
-
 ## View Our Example Manifest
 
 To view our example manifest either look at the embedded viewer below or use the Mirador demo.

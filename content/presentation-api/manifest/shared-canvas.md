@@ -4,8 +4,6 @@ date: 2018-04-15T14:48:32-04:00
 weight: 10
 ---
 
-# Shared Canvas
-
 <!-- #backlog:580 harmonize with language from presentation/canvas.md -->
 
 http://iiif.io/model/shared-canvas/1.0/

@@ -1,10 +1,9 @@
 ---
-title: "Interoperability"
+title: Image Interoperability
+menuTitle: "Interoperability"
 date: 2018-04-15T14:01:25-04:00
 weight: 30
 ---
-
-# Image Interoperability
 
 One of the major selling points of IIIF is interoperability. Besides choice in image viewers there are clever ways in which interoperability can be handy.
 

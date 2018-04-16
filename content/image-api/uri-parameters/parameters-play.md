@@ -1,10 +1,9 @@
 ---
-title: "Parameters Play"
+title: Play with Parameters
+menuTitle: "Parameters Play"
 date: 2018-04-15T13:59:15-04:00
 weight: 20
 ---
-
-# Play with Parameters
 
 Now we will play with different parameters.
 

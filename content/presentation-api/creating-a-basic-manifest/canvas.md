@@ -4,8 +4,6 @@ date: 2018-04-15T14:49:57-04:00
 weight: 60
 ---
 
-# Canvas
-
 http://iiif.io/api/presentation/2.1/#canvas
 
 ## Canvas in the Abstract

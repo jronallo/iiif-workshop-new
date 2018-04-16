@@ -1,10 +1,9 @@
 ---
-title: "Setup"
+title: Manifest Setup
+menuTitle: "Setup"
 date: 2018-04-15T14:49:22-04:00
 weight: 10
 ---
-
-# Manifest Setup
 
 Let's get set up to create a manifest. Below each step we'll give directions on how to do this from the terminal on a Mac. Feel free though to do each step however you'd like including using a GUI application.
 

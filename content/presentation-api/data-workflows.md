@@ -1,10 +1,9 @@
 ---
-title: "Data Workflows"
+title: Presentation Data Workflows
+menuTitle: "Data Workflows"
 date: 2018-04-15T14:53:59-04:00
 weight: 130
 ---
-
-# Presentation Data Workflows
 
 Each institution is likely to have different steps towards implementing IIIF and make different decisions on priorities for implementation.
 

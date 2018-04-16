@@ -4,8 +4,6 @@ date: 2018-04-15T17:42:06-04:00
 weight: 30
 ---
 
-# IIIF Futures
-
 IIIF is pushed forward by technical specification and community groups. Technical specification groups are responsible for developing new IIIF specifications. Community groups are less formal and can bring together practitioners in a certain domain.
 
 ## Audio and Video

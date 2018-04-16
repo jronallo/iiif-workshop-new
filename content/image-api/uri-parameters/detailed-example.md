@@ -1,5 +1,5 @@
 ---
-title: "Detailed Example"
+menuTitle: "Detailed Example"
 date: 2018-04-15T13:59:05-04:00
 weight: 10
 ---
@@ -15,6 +15,8 @@ The resource we'll use is [Perspective from the West - Front by Henry L. Kamphoe
 ![](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/full/800,/0/default.jpg)
 
 This is the URL we will end up with:
+
+<!-- #todo:0 some sort of fraction formatting going on here? -->
 
 `https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg`
 

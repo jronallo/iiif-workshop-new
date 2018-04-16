@@ -4,8 +4,6 @@ date: 2018-04-15T13:57:01-04:00
 weight: 9
 ---
 
-# Authentication API
-
 <!-- #backlog:290 What else should we add to the auth section? -->
 
 http://iiif.io/api/auth/1.0/

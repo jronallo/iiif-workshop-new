@@ -4,8 +4,6 @@ date: 2018-04-15T14:50:11-04:00
 weight: 80
 ---
 
-# Image Resource
-
 We need to add the properties of the [`resource`](http://iiif.io/api/presentation/2.1/#image-resources) object that is part of our image annotation.
 
 Here's what our annotation looks like so far:

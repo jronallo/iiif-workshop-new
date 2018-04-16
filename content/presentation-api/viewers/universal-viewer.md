@@ -5,8 +5,6 @@ weight: 10
 uv_manifest: http://localhost:3000/manifest.json
 ---
 
-# Universal Viewer
-
 ## View Our Example Manifest
 
 To view our example manifest either look at the embedded viewer below or use the Universal Viewer demo.

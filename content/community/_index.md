@@ -4,8 +4,6 @@ date: 2018-04-15T17:45:14-04:00
 weight: 12
 ---
 
-# Community
-
 http://iiif.io/community/
 
 <!-- #backlog:700 write community section -->

@@ -1,10 +1,9 @@
 ---
-title: "User Interface Examples"
+title: Content Search User Interface Examples
+menuTitle: "User Interface Examples"
 date: 2018-04-15T17:28:09-04:00
 weight: 10
 ---
-
-# Content Search User Interface Examples
 
 What are you and your users looking for in a search inside interface?
 

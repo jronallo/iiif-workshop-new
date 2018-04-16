@@ -4,8 +4,6 @@ date: 2018-04-15T13:56:26-04:00
 weight: 6
 ---
 
-# Presentation API
-
 The Presentation API provides enough information to drive a viewing experience.
 
 This workshop will cover version 2.1.1 of the Presentation API.

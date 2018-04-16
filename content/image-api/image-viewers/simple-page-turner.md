@@ -4,8 +4,6 @@ date: 2018-04-15T14:01:34-04:00
 weight: 40
 ---
 
-# Simple Page Turner
-
 While we'll cover more full-featured viewers when we get to the Presentation API, it is possible though to create a rudimentary page turner with image viewers like Leaflet and OpenSeadragon.
 
 1. You can see a [simple example of OpenSeadragon as a page turner](https://openseadragon.github.io/examples/tilesource-iiif/).

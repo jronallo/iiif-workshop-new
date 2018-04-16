@@ -1,10 +1,9 @@
 ---
-title: "Resources"
+title: "IIIF Resources"
+menuTitle: Resources
 date: 2018-04-15T17:45:28-04:00
 weight: 20
 ---
-
-# Resources
 
 Start with the http://iiif.io site for the latest.
 

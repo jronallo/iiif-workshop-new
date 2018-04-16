@@ -4,8 +4,6 @@ date: 2018-04-15T14:49:30-04:00
 weight: 20
 ---
 
-# Boilerplate
-
 All Presentation manifests must have the following properties.
 
 ```json

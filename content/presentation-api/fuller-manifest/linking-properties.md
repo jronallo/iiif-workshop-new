@@ -4,8 +4,6 @@ date: 2018-04-15T14:51:53-04:00
 weight: 30
 ---
 
-# Linking Properties
-
 http://iiif.io/api/presentation/2.1/#linking-properties
 
 The IIIF Presentation API recognizes that your resources are complicated, compound objects that are a part of other objects. A Resource can be associated with related resources on the web. Resources are often available in other formats. IIIF allows for expressing these linkages through the following linking properties.

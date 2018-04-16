@@ -1,10 +1,9 @@
 ---
-title: "Comparison"
+title: "Image Comparison"
+menuTitle: Comparison
 date: 2018-04-15T14:02:09-04:00
 weight: 20
 ---
-
-# Image Comparison
 
 In some disciplines image comparison is an important approach for understanding different works. IIIF can help enable image comparison in ways other than just side-by-side viewing in viewers like Mirador.
 

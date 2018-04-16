@@ -4,8 +4,6 @@ date: 2018-04-15T14:49:36-04:00
 weight: 30
 ---
 
-# Identifier
-
 http://iiif.io/api/presentation/2.1/#id
 
 The suggestion is the make your identifier look something like this:

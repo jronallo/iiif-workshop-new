@@ -1,10 +1,9 @@
 ---
-title: "Search Service"
+title: Adding a Content Search Service to a Manifest
+menuTitle: "Search Service"
 date: 2018-04-15T17:30:15-04:00
 weight: 20
 ---
-
-# Adding a Content Search Service to a Manifest
 
 We're going to add a search service to our manifest now.
 

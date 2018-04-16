@@ -1,10 +1,9 @@
 ---
-title: "Basic Manifest"
+title: Creating a Basic Manifest
+menuTitle: "Basic Manifest"
 date: 2018-04-15T14:49:15-04:00
 weight: 40
 ---
-
-# Creating a Basic Manifest
 
 In this section we'll create a manifest by hand step by step. Even though you can copy and paste the code from here, it is recommended to type these out yourself.
 

@@ -1,10 +1,8 @@
 ---
-title: "Sequence"
+title: Sequences
 date: 2018-04-15T14:49:53-04:00
 weight: 50
 ---
-
-# Sequences
 
 http://iiif.io/api/presentation/2.1/#sequence
 

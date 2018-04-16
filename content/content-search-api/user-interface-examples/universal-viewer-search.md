@@ -1,14 +1,10 @@
 ---
-title: "Universal Viewer Search"
+title: Universal Viewer Content Search
+menuTitle: "Universal Viewer Search"
 date: 2018-04-15T17:28:28-04:00
 weight: 10
----
-
----
 uv_manifest: https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01/manifest
 ---
-
-# Universal Viewer Content Search
 
 In the form field that reads "search within this item" enter the search term "panther".
 

@@ -1,10 +1,8 @@
 ---
-title: "Https"
+title: "HTTPS"
 date: 2018-04-15T17:44:41-04:00
 weight: 20
 ---
-
-# HTTPS
 
 IIIF makes no hard and fast requirement to serve up resources under HTTPS. Implementers of IIIF are encouraged to serve resources via HTTPS for a couple reasons.
 

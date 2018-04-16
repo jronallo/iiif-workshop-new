@@ -4,8 +4,6 @@ date: 2018-04-15T14:53:46-04:00
 weight: 110
 ---
 
-# Manifest Editor
-
 So far we've created our manifest by hand. In most cases you'll want to discover ways to automate the creation of manifests. In some cases though you want to allow for the crafting of manifests. The community is beginning to develop applications for the creation and editing of manifests.
 
 Open the [Bodleian Manifest Editor][bod-manifest-editor].

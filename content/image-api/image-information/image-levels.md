@@ -1,10 +1,9 @@
 ---
-title: "Image Levels"
+title: Image API Levels of Implementation
+menuTitle: "Image Levels"
 date: 2018-04-15T14:00:30-04:00
 weight: 30
 ---
-
-# Image API Levels of Implementation
 
 <!-- #donefornow:40 write section on levels of implementation -->
 

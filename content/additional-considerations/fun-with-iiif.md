@@ -4,8 +4,6 @@ date: 2018-04-15T17:44:53-04:00
 weight: 30
 ---
 
-# Fun with IIIF
-
 https://github.com/IIIF/awesome-iiif#experiments-and-fun
 
 http://puzzle.mikeapps.me/

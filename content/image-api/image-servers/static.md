@@ -1,6 +1,6 @@
 ---
 title: Static Image Server
-menuTitle: "Static"
+menuTitle: Static
 date: 2018-04-15T14:02:30-04:00
 weight: 10
 ---

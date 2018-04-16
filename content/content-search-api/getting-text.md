@@ -4,11 +4,10 @@ date: 2018-04-15T17:30:50-04:00
 weight: 40
 ---
 
-# Getting Text
-
 Do you already have text that could be searched? How will you get text?
 
 Common ways to get text include:
+
 - OCR
 - Transcription
 

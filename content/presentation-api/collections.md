@@ -4,8 +4,6 @@ date: 2018-04-15T14:53:52-04:00
 weight: 120
 ---
 
-# Collections
-
 Collections group separate IIIF manifests. Institutions have taken a couple of different approaches to creating collections.
 
 <!-- #backlog:550 comment on permanence of collections? -->

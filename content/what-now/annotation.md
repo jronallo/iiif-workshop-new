@@ -4,8 +4,6 @@ date: 2018-04-15T17:42:00-04:00
 weight: 20
 ---
 
-# Annotation
-
 <!-- #todo:150 write annotation section -->
 
 We've seen various annotations throughout the workshop already. Images are applied to canvases via annotation. Content search results are expressed as annotations.
@@ -17,6 +15,7 @@ Here we're going to look at annotations more in depth and talk about other uses 
 Readers make marks in books. You bookmark pages in your browser. You quote a passage of text and comment on it. IIIF provides the platform for allowing for all different kinds of scholarly annotation.
 
 Annotations can be useful for:
+
 - Research
 - Teaching
 - Machines
@@ -30,12 +29,14 @@ Annotations can be useful for:
 ![](/images/annotation-body-target.md)
 
 An annotation target is a URI pointing in whole or in part (fragment) to a resources like:
+
 - web pages
 - audio video
 - images
 - IIIF canvases
 
 Annotation bodies, the content of the comment/annotation, can be:
+
 - text
 - images
 - audio
@@ -43,6 +44,7 @@ Annotation bodies, the content of the comment/annotation, can be:
 - URIs
 
 Annotations are created for different reasons like:
+
 - painting
 - commenting
 - bookmarking

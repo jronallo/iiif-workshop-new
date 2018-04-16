@@ -1,10 +1,9 @@
 ---
-title: "Query Interface"
+title: Content Search Query Interface
+menuTitle: "Query Interface"
 date: 2018-04-15T17:30:27-04:00
 weight: 30
 ---
-
-# Content Search Query Interface
 
 We've previously seen what needs to be added to a manifest to enable search inside. On this page we'll cover how the client forms a query using the information from the manifest.
 

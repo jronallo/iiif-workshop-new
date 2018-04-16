@@ -4,8 +4,6 @@ date: 2018-04-15T14:00:18-04:00
 weight: 20
 ---
 
-# Image Information Properties
-
 <!-- #backlog:200 improve the image information info.json section -->
 
 http://iiif.io/api/image/2.1/#technical-properties

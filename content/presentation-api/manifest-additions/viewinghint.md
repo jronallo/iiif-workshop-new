@@ -1,10 +1,9 @@
 ---
-title: "Viewinghint"
+menuTitle: "ViewingHint"
+title: Viewing Hints and Viewing Directions
 date: 2018-04-15T14:52:53-04:00
 weight: 20
 ---
-
-# Viewing Hints and Viewing Directions
 
 viewingHint: http://iiif.io/api/presentation/2.1/#viewinghint
 

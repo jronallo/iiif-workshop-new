@@ -4,8 +4,6 @@ date: 2018-04-15T14:53:26-04:00
 weight: 1000
 ---
 
-# Multiple Images Exercise
-
 We'll now do an exercise we're going to take an existing manifest and modify it to add two images next to each other on the same canvas.
 
 Here's our beginning manifest:

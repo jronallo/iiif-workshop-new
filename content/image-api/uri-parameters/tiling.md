@@ -4,8 +4,6 @@ date: 2018-04-15T13:59:36-04:00
 weight: 40
 ---
 
-# Tiling
-
 In many cases in order to form an image in a viewer more than one image is requested and tiled together.
 
 > How does tiling work with IIIF?

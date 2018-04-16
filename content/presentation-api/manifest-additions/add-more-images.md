@@ -4,8 +4,6 @@ date: 2018-04-15T14:52:38-04:00
 weight: 10
 ---
 
-# Add Other Images
-
 The print we have been working with was digitized at a time before NCSU Libraries made available anything more than single still images. Really this is from a series of prints so they could be presented as a single unit.
 
 We're now going to reintegrate part of the print series in order to show how to add more images to our manifest in sequence.

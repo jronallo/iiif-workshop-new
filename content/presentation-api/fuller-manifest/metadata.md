@@ -4,8 +4,6 @@ date: 2018-04-15T14:51:37-04:00
 weight: 10
 ---
 
-# Metadata
-
 http://iiif.io/api/presentation/2.1/#metadata
 
 The descriptive metadata that is usually provided is just enough data so that a user can know what they're looking at.

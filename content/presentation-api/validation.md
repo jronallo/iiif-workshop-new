@@ -1,10 +1,9 @@
 ---
-title: "Validation"
+title: Validating a Presentation Manifest
+menuTitle: "Validation"
 date: 2018-04-15T14:52:08-04:00
 weight: 70
 ---
-
-# Validating a Presentation Manifest
 
 Before you publish some of your manifests you'll want to validate that they're correct. There are a couple options for
 

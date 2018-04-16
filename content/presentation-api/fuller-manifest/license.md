@@ -4,8 +4,6 @@ date: 2018-04-15T14:51:43-04:00
 weight: 20
 ---
 
-# License
-
 http://iiif.io/api/presentation/2.1/#license
 
 Before you publish your manifest you may want to give some indication of how the resource can be reused.

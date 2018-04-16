@@ -4,8 +4,6 @@ date: 2018-04-15T14:50:21-04:00
 weight: 90
 ---
 
-# Image Service
-
 http://iiif.io/api/presentation/2.1/#service
 
 Up to this point we have only annotated a static image onto our canvas. We also want to make it clear that this particular image has an image service behind it that will enable access of other versions of the image resource.

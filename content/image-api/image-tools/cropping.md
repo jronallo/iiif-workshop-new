@@ -1,10 +1,9 @@
 ---
-title: "Cropping"
+title: "Image Cropping"
+menuTitle: Cropping
 date: 2018-04-15T14:02:05-04:00
 weight: 10
 ---
-
-# Image Cropping
 
 Image cropping tools are one of the kinds of tools that become available to you when you've adopted the IIIF Image API.
 

@@ -1,10 +1,8 @@
 ---
-title: "Image Information Uri"
+title: "Image Information URI"
 date: 2018-04-15T14:00:11-04:00
 weight: 10
 ---
-
-# Image Information URI
 
 Let's create a URI to return the image information.
 

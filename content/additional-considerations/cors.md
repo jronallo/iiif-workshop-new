@@ -4,8 +4,6 @@ date: 2018-04-15T17:44:37-04:00
 weight: 10
 ---
 
-# CORS
-
 CORS stands for Cross-Origin Resource Sharing.
 
 In order to share your images across domains you'll need to set CORS headers.

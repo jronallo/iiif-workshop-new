@@ -1,10 +1,8 @@
 ---
-title: "Drag and Drop"
+title: "Drag & Drop"
 date: 2018-04-15T14:51:10-04:00
 weight: 30
 ---
-
-# Drag & Drop
 
 Drag & Drop allows for moving a resource via a IIIF manifest from one interface into a IIIF viewer.
 

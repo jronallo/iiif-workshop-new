@@ -1,10 +1,9 @@
 ---
-title: "Manifests and Image Servers"
+title: How Manifests and Image Servers Work Together
+menuTitle: "Manifests and Image Servers"
 date: 2018-04-15T14:49:01-04:00
 weight: 30
 ---
-
-# How Manifests and Image Servers Work Together
 
 Before we begin to create our own manifest let's take a moment to talk about how parts of IIIF fit together.
 

@@ -4,8 +4,6 @@ date: 2018-04-15T13:56:51-04:00
 weight: 8
 ---
 
-# Content Search API
-
 http://iiif.io/api/search/1.0/
 
 The Content Search API is intended for providing search _**within**_ a resource. Not searching for a resource.

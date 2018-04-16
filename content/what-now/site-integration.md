@@ -4,8 +4,6 @@ date: 2018-04-15T17:41:53-04:00
 weight: 10
 ---
 
-# Site Integration
-
 There are lots of different examples of ways that IIIF can be incorporated into your web site. For inspiration take a look at some of these examples.
 
 ## Questions
