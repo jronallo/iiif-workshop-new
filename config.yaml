@@ -6,6 +6,9 @@ theme: hugo-theme-learn
 outputs:
   home: [ "HTML", "RSS", "JSON"]
 
+params:
+  themeVariant: green
+
 menu:
   shortcuts:
     - name: Feedback

@@ -1,0 +1,19 @@
+#logo {
+  font-size: 20px;
+  color: hsl(0, 0%, 90%) !important;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white !important;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+#logo span {
+  display: inline-block;
+  vertical-align: middle;
+}
