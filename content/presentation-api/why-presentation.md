@@ -17,4 +17,4 @@ http://iiif.io/api/presentation/2.1/#introduction
 - Platform for annotation
 - Embedding resources in blogs and other web pages
 
-<!-- #important:570 give more reasons why there's a presentation API and rewrite this section -->
+<!-- #todo:80 give more reasons why there's a presentation API and rewrite this section -->

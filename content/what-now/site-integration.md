@@ -14,7 +14,7 @@ The following questions might help you think about what will work for your insti
 - Is pan/zoom available in every case?
 - How would a user get to an alternative viewer?
 
-<!-- #todo:120 What are other questions to ask yourself about site integration? -->
+<!-- #todo:240 What are other questions to ask yourself about site integration? -->
 
 ## Examples
 

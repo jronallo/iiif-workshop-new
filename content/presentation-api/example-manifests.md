@@ -52,4 +52,4 @@ These examples originally come from the [Universal Viewer Showcase](http://unive
 - [Mirador](../viewers/mirador.html#?manifest=https://iiif.harvardartmuseums.org/manifests/object/262968)
 
 
-<!-- #next:200 add more example manifests to explore -->
+<!-- #todo:70 add more example manifests to explore -->

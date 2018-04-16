@@ -7,6 +7,6 @@ If you want a quick implementation overview, see the current [IIIF quick start g
 
 You may also want to check out the _draft_ "[For Implementers]" guide which orients implementers to the different considerations that need to be made and gives recommendations on how to get started.
 
-<!-- #todo:30 remove _draft_ once published to the website -->
+<!-- #todo:150 remove _draft_ once published to the website -->
 
 [For Implementers]: https://docs.google.com/document/d/1OXxPFrwTDPlx3EfrjEx0Vl5VMy20znfejnvCpmJfmcw/edit

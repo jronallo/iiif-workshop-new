@@ -103,4 +103,4 @@ Visit this [book of boxers]. Click on the download link.
 [discovery-group]: http://iiif.io/community/groups/discovery/
 [newspapers-group]: http://iiif.io/community/groups/newspapers/
 
-<!-- #next:210 show more live examples of manifests that use these linking properties with examples of how they display in a client and what functionality the properties enable -->
+<!-- #todo:50 show more live examples of manifests that use these linking properties with examples of how they display in a client and what functionality the properties enable -->

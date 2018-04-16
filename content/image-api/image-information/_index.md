@@ -4,7 +4,7 @@ date: 2018-04-15T13:59:58-04:00
 weight: 40
 ---
 
-<!-- #todo:0 aka info.json -->
+<!-- #todo:60 aka info.json -->
 `info.json`
 
 In order to know things like the height and width of an image and the available sizes and tiles, the IIIF Image API specifies a standard way to request the information and the format the information should take.

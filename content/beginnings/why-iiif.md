@@ -11,4 +11,4 @@ Take a moment to read over some of the [benefits of IIIF in the FAQ](http://iiif
 - What do you have questions about?
 
 
-<!-- #todo:0 review these documents and make sure we bring these benefits back up at the relevant times -->
+<!-- #todo:100 review these documents and make sure we bring these benefits back up at the relevant times -->

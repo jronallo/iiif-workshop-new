@@ -44,7 +44,7 @@ We'll use `https` to start our URI:
 ### Server
 
 The (sub)domain where the images or image server lives.
-<!-- #doing:0 start here -->
+<!-- #todo:40 start here -->
 We'll extend our URI with an image server:
 
 <div class="alert">https://<strong>iiif.lib.ncsu.edu</strong></div>

@@ -9,7 +9,7 @@ hidden: true
 
 - [Jason Ronallo](http://ronallo.com), [email](mailto:jronallo@gmail.com), @jronallo on [IIIF Slack](http://bit.ly/iiif-slack)
 
-<!-- #todo:130 clean up credits page -->
+<!-- #todo:250 clean up credits page -->
 
 ## Support
 

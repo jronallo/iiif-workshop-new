@@ -25,7 +25,7 @@ You can search the [IIIF Awesome list](https://github.com/IIIF/awesome-iiif) for
 
 ### Simple Example
 
-<!-- #todo:0 make this starfish.zip open in a _blank window -->
+<!-- #todo:90 make this starfish.zip open in a _blank window -->
 
 1. Download [this zip file](/assets/starfish.zip).
 
@@ -52,7 +52,7 @@ _If the included starfish.zip file doesn't work you can find the original with s
 
 ## OpenSeadragon
 
-<!-- #todo:160 move OSD to separate include files -->
+<!-- #todo:280 move OSD to separate include files -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.3.0/openseadragon.min.js"></script>
 <div id="osd" style="width:100%;height:400px;"></div>
 <script>

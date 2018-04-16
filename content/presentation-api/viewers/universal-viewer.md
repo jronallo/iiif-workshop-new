@@ -19,7 +19,7 @@ Note: If you don't already have a local web server and a manifest at http://loca
 
 {% include "../includes/presentation/uv-iframe.html" %}
 
-<!-- #todo:110 Consider adding either an image with what UV ought to look like at this point or include another embed that points to the manifest we've created served up from this gitbook. -->
+<!-- #todo:230 Consider adding either an image with what UV ought to look like at this point or include another embed that points to the manifest we've created served up from this gitbook. -->
 
 ## Using the Universal Viewer Demo
 

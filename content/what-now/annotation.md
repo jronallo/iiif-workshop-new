@@ -4,11 +4,11 @@ date: 2018-04-15T17:42:00-04:00
 weight: 20
 ---
 
-<!-- #todo:150 write annotation section -->
+<!-- #todo:270 write annotation section -->
 
 We've seen various annotations throughout the workshop already. Images are applied to canvases via annotation. Content search results are expressed as annotations.
 
-<!-- #todo:70 are there other instance in the workshop where we've already mentioned annotations? -->
+<!-- #todo:190 are there other instance in the workshop where we've already mentioned annotations? -->
 
 Here we're going to look at annotations more in depth and talk about other uses of annotations.
 
@@ -22,9 +22,9 @@ Annotations can be useful for:
 - Crowdsourcing
 - Conservation
 
-<!-- #todo:80 maybe mention hypothesis? -->
+<!-- #todo:200 maybe mention hypothesis? -->
 
-<!-- #todo:40 While annotation is specified outside of IIIF it is useful to have a basic understanding of how annotations work. -->
+<!-- #todo:160 While annotation is specified outside of IIIF it is useful to have a basic understanding of how annotations work. -->
 
 ![](/images/annotation-body-target.md)
 
@@ -62,7 +62,7 @@ Open [Mirador](../viewers/mirador.html) and create some annotations over top of 
 Take a look at some of the examples of how the same annotations allow for different interactions with the Holbein painting:
 http://storiiies.cogapp.com/
 
-<!-- #todoplus:40 make video of one of the holbein examples -->
+<!-- #backlog:40 make video of one of the holbein examples -->
 
 Explore the navigation of [the tiles of a quilt](http://ghp.wellcomecollection.org/annotation-viewer/quilt).
 
@@ -76,13 +76,13 @@ Here's a video showing annotation using Mirador which is stored in the SimpleAnn
 
 https://github.com/IIIF/awesome-iiif#annotation-servers
 
-<!-- #todo:180 write section on annotation stores -->
+<!-- #todo:300 write section on annotation stores -->
 
 ## Questions
 
 What kinds of data do you have for annotations?  How could you get those into annotations?
 
-<!-- #todo:50 add example of hot spot annotation. V&A? -->
+<!-- #todo:170 add example of hot spot annotation. V&A? -->
 
 ## Web Annotation
 

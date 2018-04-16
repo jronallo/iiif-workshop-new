@@ -16,7 +16,7 @@ The resource we'll use is [Perspective from the West - Front by Henry L. Kamphoe
 
 This is the URL we will end up with:
 
-<!-- #todo:0 some sort of fraction formatting going on here? -->
+<!-- #todo:110 some sort of fraction formatting going on here? -->
 
 `https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg`
 
