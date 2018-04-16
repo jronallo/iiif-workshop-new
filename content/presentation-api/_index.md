@@ -25,4 +25,4 @@ We'll learn how to read a manifest by writing one. As we go through it'll be bes
 
 http://iiif.io/api/presentation/2.1/#basic-types
 
-<img src="../assets/images/basic-types.png" id="basic-types">
+<img src="/images/basic-types.png" id="basic-types">

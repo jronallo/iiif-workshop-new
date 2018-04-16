@@ -1,16 +1,17 @@
 ---
-title: "Static"
+title: Static Image Server
+menuTitle: "Static"
 date: 2018-04-15T14:02:30-04:00
 weight: 10
 ---
 
-# Static Image Server
-
 Pros:
+
 - Simple to deploy with a standard web server--no need for a specialized image server
 - Possible to use existing full images and tiles with redirects
 
 Cons:
+
 - Lot of storage space
 - Limits which sizes can be requested
 
@@ -24,7 +25,9 @@ You can search the [IIIF Awesome list](https://github.com/IIIF/awesome-iiif) for
 
 ### Simple Example
 
-1. Download <a href="../assets/starfish.zip" target="_blank">this zip file</a>.
+<!-- #todo:0 make this starfish.zip open in a _blank window -->
+
+1. Download [this zip file](/assets/starfish.zip).
 
 2. Unzip the file into your ["iiif-workshop" directory](../preparation/directory.md). (You can use whatever tool you usually use to unzip an archive.)
 

@@ -6,7 +6,7 @@ weight: 30
 
 The Image API allows for taking a source image, applying URL parameters to extract a region of that image, and then doing some further basic image manipulation. We'll go through the parameters here. (And you can learn more about the [order of implementation](order-of-implementation.md) later.)
 
-![](../assets/images/transformation.png)
+![](/images/transformation.png)
 
 ## Parameters Template
 

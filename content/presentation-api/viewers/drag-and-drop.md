@@ -28,7 +28,7 @@ http://example.org?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog
 
 And all of this can wrap an image like the IIIF logo too:
 
-[![](../assets/images/logo.jpg)](https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2Fnubian-message-2003-04-01%2Fmanifest)
+[![](/images/logo.jpg)](https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2Fnubian-message-2003-04-01%2Fmanifest)
 
 ### Universal Viewer
 

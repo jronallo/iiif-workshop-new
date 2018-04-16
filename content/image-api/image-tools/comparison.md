@@ -38,17 +38,18 @@ You can try these images in the [Compariscope].
 
 Here's a video of creating this kind of comparison:
 
-<video src="../assets/video/compariscope-beginning.mp4" preload="auto" controls></video>
+<video src="/video/compariscope-beginning.mp4" preload="auto" controls></video>
 
 And here's what the result for the user looks like:
 
-<video src="../assets/video/compariscope-result.mp4" preload="auto" controls loop></video>
+<video src="/video/compariscope-result.mp4" preload="auto" controls loop></video>
 
 ## Painting and Place
 
 If you tour Arles, France, you can take the Van Gogh walk where reproductions of paintings are placed from the perspective of where they were painted. With IIIF it would be possible to do similar with tools like those above.
 
 Van Gogh Walk links:
+
 - [In his steps](http://www.vangoghgallery.com/in_his_steps/arles.html)
 - [Tripadvisor on Arles, France](https://www.tripadvisor.com/Attraction_Review-g187211-d6856048-Reviews-Van_Gogh_Walk-Arles_Bouches_du_Rhone_Provence_Alpes_Cote_d_Azur.html)
 

@@ -16,7 +16,7 @@ Try [Leaflet-IIIF Cropping][leaflet-cropping]
 
 Here's a video of using this tool integrated into a site:
 
-<video src="../assets/video/2017_UCD_Crop-snippet.mp4" preload="auto" controls></video>
+<video src="/video/2017_UCD_Crop-snippet.mp4" preload="auto" controls></video>
 
 [See the full video][full-ucd-video]
 

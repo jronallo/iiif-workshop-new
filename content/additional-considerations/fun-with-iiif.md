@@ -10,7 +10,7 @@ https://github.com/IIIF/awesome-iiif#experiments-and-fun
 
 http://puzzle.mikeapps.me/
 
-<video src="../assets/video/yale-zebra.mp4" preload="auto" controls></video>
+<video src="/video/yale-zebra.mp4" preload="auto" controls></video>
 
 IIIF + machine learning:
 http://labs.cogapp.com/iiif-ml/

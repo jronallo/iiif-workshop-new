@@ -7,6 +7,7 @@ weight: 10
 Any recent version of Chrome or Firefox ought to work. Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server](web-server.md) involves installing a Chrome extension, you may choose to use Chrome.
 
 Instructions have been tested with the following (and may work for versions just below):
+
 - Firefox 55
 - Chrome 60
 
@@ -14,7 +15,9 @@ Instructions have been tested with the following (and may work for versions just
 
 As we'll be taking a look at JSON in a browser at times to make sure things are working, you may want to install an extension for your browser that will pretty up your JSON. These extensions will also validate the format of the JSON which can be helpful in finding syntax errors.
 
-> Note that the extensions will not validate whether a IIIF document is valid to the IIIF standards--just that the JSON format is correct.
+{{% notice note %}}
+Note that the extensions will not validate whether a IIIF document is valid to the IIIF standards--just that the JSON format is correct.
+{{% /notice %}}
 
 ### Chrome
 
@@ -33,6 +36,7 @@ With either browser you may also need at times to open the [developer tools](htt
 Sometimes the browser may cache a resource that you're working on that you've changed. To see the new data you'll need to clear your cache. It is possible in Firefox and Chrome to select an option to disable the cache while the developer tools are open.
 
 Alternatively you may want to try the following browser extensions:
+
 - Firefox: [Empty Cache Button](https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/)
 - Chrome: _Can anyone suggest a good cache clearing button for Chrome?_
 <!-- #backlog:280 Find a simple Chrome cache clearing extension -->

@@ -62,7 +62,7 @@ Once you've added this you ought to be able to search:
 - Enter "amazon" into the search box
 - Press Enter
 
-![](../assets/images/amazon-search.png)
+![](/images/amazon-search.png)
 
 ## Autocomplete Service
 
@@ -92,4 +92,4 @@ Now make your search service look like this:
 
 Now if you refresh [Universal Viewer](../viewers/uv.html) and do a search you should begin to see suggestions show up above the search box.
 
-![](../assets/images/amazon-suggestions.png)
+![](/images/amazon-suggestions.png)

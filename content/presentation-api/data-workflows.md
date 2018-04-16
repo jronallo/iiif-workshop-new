@@ -31,12 +31,12 @@ This is a graphical example from the V&A.
 
 Here's the abstract approach that was required:
 
-![](../assets/images/va-iterative-integration-overview.png)
+![](/images/va-iterative-integration-overview.png)
 
 Here's a start:
 
-![](../assets/images/va-iterative-integration-step1.png)
+![](/images/va-iterative-integration-step1.png)
 
 As they go along it gets more complicated and full of features:
 
-![](../assets/images/va-iterative-integration-step2.png)
+![](/images/va-iterative-integration-step2.png)

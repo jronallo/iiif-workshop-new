@@ -13,6 +13,7 @@ In most cases in production you won't actually be creating manifests by hand. Yo
 <!-- #todo:170 refer back to the charts here for required and recommended properties: http://iiif.io/api/presentation/2.1/#b-summary-of-metadata-requirements -->
 
 Here's what we'll cover:
+
 - Boilerplate: Every manifest starts here
 - Identifier `@id`
 - Basic Description

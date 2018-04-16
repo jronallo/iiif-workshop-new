@@ -40,7 +40,7 @@ Use "Special Collections Research Center at NCSU Libraries" as the value of `att
 
 The [`logo`](http://iiif.io/api/presentation/2.1/#logo) is often used to display the owning or hosting institution for the resource. Clients must display this image.
 
-Find a JPEG to use as your logo. Either find the logo of your institution or some small image that you like. (Use [this hot logo](../assets/images/logo.jpg) if you need to.)
+Find a JPEG to use as your logo. Either find the logo of your institution or some small image that you like. (Use [this hot logo](/images/logo.jpg) if you need to.)
 
 Download the logo into your "iiif-workshop" directory with the name "logo.jpg".
 

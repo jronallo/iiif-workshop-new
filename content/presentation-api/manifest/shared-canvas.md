@@ -16,10 +16,10 @@ We call it a shared canvas because it allows for painting multiple images onto t
 
 Think of a canvas as an empty presentation slide. You can put a page image on the canvas via annotation:
 
-![](../assets/images/presentation-shared-canvas.png)
+![](/images/presentation-shared-canvas.png)
 
 Once you have a base image painted onto the canvas you can then apply further annotations like transcriptions, translations, scholarly commentary.
 
-![](../assets/images/presentation-shared-canvas-annotation.png)
+![](/images/presentation-shared-canvas-annotation.png)
 
 > While just one related piece of how IIIF works, the shared canvas model is vital for understanding what IIIF enables and how.

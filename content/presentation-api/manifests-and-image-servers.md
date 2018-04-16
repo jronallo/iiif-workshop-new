@@ -12,7 +12,7 @@ A manifest contains different information including links to your images. If you
 
 ## IIIF Client-Server Request/Response Cycle
 
-[![](../assets/images/request_response.png)](https://iiif.github.io/training/intro-to-iiif/SOFTWARE.html#software)
+[![](/images/request_response.png)](https://iiif.github.io/training/intro-to-iiif/SOFTWARE.html#software)
 
 Here's how it usually works.
 

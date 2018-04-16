@@ -28,7 +28,7 @@ To see the other side of the coin open up the layers panel in Mirador and turn o
 
 Here's a video of what this ought to look like:
 
-<video src="../assets/video/coin-before.mp4" preload="auto" controls></video>
+<video src="/video/coin-before.mp4" preload="auto" controls></video>
 
 ## Modifying the Manifest
 
@@ -59,7 +59,7 @@ You'll need to do two things:
 
 In the end ought to see something like the following:
 
-![](../assets/images/coin-side-by-side.png)
+![](/images/coin-side-by-side.png)
 
 > This example is taken from a manifest and question Ethan Gruber of the American Numismatic Society had in the IIIF Slack.
 

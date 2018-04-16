@@ -8,7 +8,7 @@ weight: 30
 
 http://iiif.io/api/image/2.1/#order-of-implementation
 
-![](../assets/images/transformation.png)
+![](/images/transformation.png)
 
 The parameters are always applied in a particular order so that you get the expected output.
 

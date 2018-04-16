@@ -27,7 +27,7 @@ Annotations can be useful for:
 
 <!-- #todo:40 While annotation is specified outside of IIIF it is useful to have a basic understanding of how annotations work. -->
 
-![](../assets/images/annotation-body-target.md)
+![](/images/annotation-body-target.md)
 
 An annotation target is a URI pointing in whole or in part (fragment) to a resources like:
 - web pages

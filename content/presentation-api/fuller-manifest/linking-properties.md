@@ -86,7 +86,7 @@ What options do you get in a viewer and how might you use those resources?
 
 Visit this [issue of the Nubian Message][nubian-message]. At the bottom right of the Universal Viewer is a download icon. Click on it and you'll get the option to download a PDF of the resource or the OCR extracted from the page images.
 
-![](../assets/images/presentation-rendering-download-universal-viewer.png)
+![](/images/presentation-rendering-download-universal-viewer.png)
 
 ### Portrait gallery of pugilists of America and their contemporaries
 

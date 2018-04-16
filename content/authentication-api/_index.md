@@ -18,7 +18,7 @@ How you handle a logged in user differently from any other user is an implementa
 
 <!-- #backlog:0 could degraded access also include displaying less metadata about the resource? -->
 
-![](../assets/images/auth-workflow.jpg)
+![](/images/auth-workflow.jpg)
 
 ---
 
@@ -27,14 +27,14 @@ The API supports the following interaction patterns:
 **Login:**
 The user will be required to log in using a separate window with a UI provided by an external authentication system.
 
-![](../assets/images/auth-login.png)
+![](/images/auth-login.png)
 
 ---
 
 **Click through:**
 The user will be required to click a button within the client using content provided in the service description.
 
-![](../assets/images/auth-clickthrough.jpg)
+![](/images/auth-clickthrough.jpg)
 
 ---
 

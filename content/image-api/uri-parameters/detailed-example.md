@@ -49,37 +49,37 @@ Our single `xywh` parameter value is `2016,2280,1884,952`. We can break out the 
 
 To get the `x` position we count over 2016 pixels.
 
-![](../assets/images/kamp-small-x.jpg)
+![](/images/kamp-small-x.jpg)
 
 ### Region: y
 
 We then go down from the top by 2280 pixels to get the `y` position.
 
-![](../assets/images/kamp-small-xy.jpg)
+![](/images/kamp-small-xy.jpg)
 
 ### Region: xy Point
 
 What we're really doing is selecting the `xy` point on the image.
 
-![](../assets/images/kamp-small-xy-point.jpg)
+![](/images/kamp-small-xy-point.jpg)
 
 ### Region: w
 
 From that xy point we measure out the width in pixels.
 
-![](../assets/images/kamp-small-w.jpg)
+![](/images/kamp-small-w.jpg)
 
 ### Region: h
 
 Finally from the xy point we measure out the height in pixels.
 
-![](../assets/images/kamp-small-h.jpg)
+![](/images/kamp-small-h.jpg)
 
 ### Selected Region
 
 Here's the region we've selected from the full image based on our `xywh` parameters.
 
-![](../assets/images/kamp-small-xywh-highlighted.jpg)
+![](/images/kamp-small-xywh-highlighted.jpg)
 
 ### Full Size Image of Selected Region
 

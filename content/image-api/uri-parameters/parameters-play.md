@@ -18,11 +18,17 @@ In a text editor copy the template above and begin filling in different values f
 
 All the example values below ought to work with this particular image. Links to the standard documentation are given for each of the parameters.
 
-<div class="alert">Tip: It may be easier to see what's happening with some of the other parameters if you use a "full" region.</div>
+{{% notice tip %}}
+It may be easier to see what's happening with some of the other parameters if you use a "full" region.
+{{% /notice %}}
 
-<div class="alert">Tip: When viewing an image in the Firefox and Chrome web browsers the title bar will tell you the width x height of the image in pixels.</div>
+{{% notice tip %}}
+When viewing an image in the Firefox and Chrome web browsers the title bar will tell you the width x height of the image in pixels.
+{{% /notice %}}
 
-<div class="alert">Note not all image servers will support all variations of all parameters. Later we'll cover <a href="levels.html">levels of compliance</a> to explain why.</div>
+{{% notice note %}}
+Note not all image servers will support all variations of all parameters. Later we'll cover <a href="levels.html">levels of compliance</a> to explain why.
+{{% /notice %}}
 
 ## Questions
 
@@ -95,14 +101,17 @@ Start with the base URI add the image identifier and then add on the different I
 > Challenge: Try to use the region parameter to get a particular section of the image like a face or a painting in a painting.
 
 **NCSU Libraries** https://iiif.lib.ncsu.edu/iiif
+
 - [0008232](https://d.lib.ncsu.edu/collections/catalog/0008232)
 - [0006749](https://d.lib.ncsu.edu/collections/catalog/0006749)
 
 **Getty** https://data.getty.edu/museum/api/iiif/
+
 - [3384](http://media.getty.edu/viewers/mirador/?manifest=https://data.getty.edu/museum/api/iiif/662/manifest.json)
 - [542](http://www.getty.edu/art/collection/objects/542/bernardino-mei-christ-cleansing-the-temple-italian-about-1655/)
 
 **Art Institute of Chicago** https://lakeimagesweb.artic.edu/iiif
+
 - [7a6a2b0c-45be-488e-57f5-7e053950dffb](http://www.artic.edu/aic/collections/artwork/145822)
 - [df09d399-a5ff-703f-fb3b-eb4997292dab](http://www.artic.edu/aic/collections/artwork/217201)
 - [c4918c92-8ba7-ff0e-f231-c91cbb843b42](http://www.artic.edu/aic/collections/artwork/15401)
@@ -113,18 +122,22 @@ Start with the base URI add the image identifier and then add on the different I
 - [e12ad718-70ed-98e2-24ab-829696f68a01](http://www.artic.edu/aic/collections/artwork/52983)
 
 **Frick Collection** http://collections.frick.org/apis/iiif/image/v2/
+
 - [7337](http://collections.frick.org/objects/275/officer-and-laughing-girl)
 - [7344](http://collections.frick.org/objects/39/st-francis-in-the-desert)
 - [8768](http://collections.frick.org/objects/907/portrait-of-andrew-w-mellon)
 
 **Bodleian** http://iiif.bodleian.ox.ac.uk/iiif/image/
+
 - [7c2889c4-cc23-4e74-b45d-2c4368540fe5](http://iiif.bodleian.ox.ac.uk/iiif/viewer/60834383-7146-41ab-bfe1-48ee97bc04be#?c=0&m=0&s=0&cv=16&z=-0.1036%2C0%2C1.2073%2C1.3975)
 - [ca08a297-ef6d-4f83-856c-5817b0144955](http://digital.bodleian.ox.ac.uk/inquire/p/ca08a297-ef6d-4f83-856c-5817b0144955)
 
 **Princeton Libraries** https://libimages.princeton.edu/loris/
+
 - [bluemountain%2Fastore%2Fperiodicals%2Fbmtnaae%2Fissues%2F1918%2F12_01%2Fdelivery%2Fbmtnaae_1918-12_01_0013.jp2](http://bluemountain.princeton.edu/exist/apps/bluemountain/issue.html?titleURN=bmtnaae&issueURN=bmtnaae_1918-12_01)
 
 **Wellcome** https://dlcs.io/iiif-img/wellcome/1/
+
 - [05bf51b9-991f-476d-bff1-dd5e96c4e122](https://wellcomelibrary.org/item/b20417081#?c=0&m=0&s=0&cv=590&z=-0.3642%2C0.3624%2C1.5498%2C0.907)
 
 ## Parameters Playground

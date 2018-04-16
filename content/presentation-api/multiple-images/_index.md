@@ -8,7 +8,7 @@ weight: 100
 
 Since IIIF provides a canvas with a coordinate space it is possible to apply more than one image to the canvas. Here's an example of a virtual reconstruction of a damaged manuscript. The illuminations were cut out at some point. With both now digitized the manuscript can be reconstructed.
 
-<video src="../assets/video/biblissima-demo-chateauroux.mp4" preload="auto" controls></video>
+<video src="/video/biblissima-demo-chateauroux.mp4" preload="auto" controls></video>
 
 You can read more about this: [Grandes Chroniques de France - Châteauroux BM ms. 5 ][blog]
 
