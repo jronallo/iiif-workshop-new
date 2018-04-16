@@ -1,7 +1,8 @@
-baseURL: http://example.org/
+baseURL: https://ronallo.com/iiif-workshop-new/
 languageCode: en-us
 title: IIIF Technical Workshop
 theme: hugo-theme-learn
+canonifyURLs: true
 
 outputs:
   home: [ "HTML", "RSS", "JSON"]

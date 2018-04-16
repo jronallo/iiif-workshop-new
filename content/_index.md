@@ -6,4 +6,4 @@ weight: 1000
 
 # IIIF Technical Workshop
 
-This is a technical workshop for IIIF. It is written so that you ought to be able to go through the tutorial self-guided. If you are doing the workshop with an instructor, you should probably read the [introduction] and go through all of the [preparation] to get set up in advance of the day of the workshop.
+This is a technical workshop for IIIF. It is written so that you ought to be able to go through the tutorial self-guided. If you are doing the workshop with an instructor, you should probably read the [introduction]({{<ref "introduction">}}) and go through all of the [preparation]({{<ref "preparation">}}) to get set up in advance of the day of the workshop.
