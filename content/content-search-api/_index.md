@@ -12,7 +12,9 @@ This API will not help you discover resources. The API will help you find text w
 
 The content searched is commonly the text of the resource as an annotation that can be painted onto a canvas. The most common use cases are for returning OCR text or transcriptions, though it is possible to use this API for searching other types of annotations.
 
-> Note that the IIIF Search API doesn’t specify how the search interface is presented to the user, it specifies the back-end mechanism by which the client can query annotation content on any IIIF Search API compatible server.
+{{% notice note %}}
+Note that the IIIF Search API doesn’t specify how the search interface is presented to the user, it specifies the back-end mechanism by which the client can query annotation content on any IIIF Search API compatible server.
+{{% /notice %}}
 
 What are the use cases you have at your institution for search inside?
 

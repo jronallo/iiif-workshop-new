@@ -41,7 +41,9 @@ So an example of a search query would be like the following. It is as simple as 
 
 https://ocr.lib.ncsu.edu/search/segPap_003?q=amazon
 
-> Note that this particular implementation [ignores](http://iiif.io/api/search/1.0/#ignored-parameters) all parameters other than `q`.
+{{% notice note %}}
+Note that this particular implementation [ignores](http://iiif.io/api/search/1.0/#ignored-parameters) all parameters other than `q`.
+{{% /notice %}}
 
 ### Query Response
 

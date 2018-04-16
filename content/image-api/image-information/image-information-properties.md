@@ -46,7 +46,10 @@ The `@context` is from JSON-LD and is part of what makes it linked data. You can
 
 We've already seen what the identifier for a IIIF image is.
 
-> Note that the `@id` is the part of an image URI up to the image identifier portion of the URI for an image request.
+{{% notice note %}}
+Note that the `@id` is the part of an image URI up to the image identifier portion of the URI for an image request.
+{{% /notice %}}
+
 <!-- #backlog:260 is this about the @id in the info.json clear enough? -->
 
 ## Protocol
@@ -92,6 +95,9 @@ http://iiif.io/api/image/2.1/#rights-and-licensing-properties
 
 Most of the `info.json` response includes technical information.
 
-> Note how there is no descriptive information here. That's intentional to keep the Image API focused on returning images and the Presentation API focusing on displaying information to a user.
+{{% notice note %}}
+Note how there is no descriptive information here. That's intentional to keep the Image API focused on returning images and the Presentation API focusing on displaying information to a user.
+{{% /notice %}}
+
 
 In order to allow for sharing and possible reuse, there are three properties which can be added that give credit where credit is due: `attribution`, `license`, and `logo`.

@@ -43,7 +43,10 @@ You can search the [IIIF Awesome list](https://github.com/IIIF/awesome-iiif) for
 
 6. Now reload this workshop page and it should work in these viewers.
 
-  > Note: The info.json for this static example expects the server to be http://localhost:3000. If your web server is listening on a different port, you'll need to change that.
+{{% notice note %}}
+The info.json for this static example expects the server to be http://localhost:3000. If your web server is listening on a different port, you'll need to change that.
+{{% /notice %}}
+
 
 _If the included starfish.zip file doesn't work you can find the original with symlinks in this repository: <https://github.com/zimeon/iiif/tree/master/demo-static/starfish>_
 

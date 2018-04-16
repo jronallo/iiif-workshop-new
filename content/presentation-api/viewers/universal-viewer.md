@@ -13,7 +13,9 @@ To view our example manifest either look at the embedded viewer below or use the
 
 We've also embedded the UV demo here pointing to our local manifest.
 
-> Note: If you don't already have a local web server and a manifest at http://localhost:3000/manifest.json then this embed won't work.
+{{% notice note %}}
+Note: If you don't already have a local web server and a manifest at http://localhost:3000/manifest.json then this embed won't work.
+{{% /notice %}}
 
 {% include "../includes/presentation/uv-iframe.html" %}
 

@@ -8,7 +8,10 @@ http://iiif.io/api/presentation/2.1/#linking-properties
 
 The IIIF Presentation API recognizes that your resources are complicated, compound objects that are a part of other objects. A Resource can be associated with related resources on the web. Resources are often available in other formats. IIIF allows for expressing these linkages through the following linking properties.
 
-> Note: In version 2 of the specification these properties seem underspecified. Use of these properties have [varied across institutions](https://github.com/benwbrum/fromthepage/wiki/IIIF-Linking-Properties-Usage-Survey). As linking properties have gotten more attention and use, this will likely be rectified in a future version of the specification.
+{{% notice note %}}
+In version 2 of the specification these properties seem underspecified. Use of these properties have [varied across institutions](https://github.com/benwbrum/fromthepage/wiki/IIIF-Linking-Properties-Usage-Survey). As linking properties have gotten more attention and use, this will likely be rectified in a future version of the specification.
+{{% /notice %}}
+
 
 Linking properties can be applied to any resource type. (Take a look at the [Summary of Metadata Requirements][summary-metadata] and scroll down to "Linking Properties".)
 

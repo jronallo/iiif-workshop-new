@@ -11,6 +11,9 @@ Watch this video for an example of how the interoperability of different viewers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gPRPfPZnIvU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-> Note that Universal Viewer now has an improved responsive mobile interface so this trick is no longer necessary!
+{{% notice note %}}
+Note that Universal Viewer now has an improved responsive mobile interface so this trick is no longer necessary!
+{{% /notice %}}
+
 
 We'll see more examples later of of the interoperability enabled by IIIF can benefit publishing institutions and users.
