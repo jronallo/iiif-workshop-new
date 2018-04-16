@@ -21,4 +21,4 @@ Edit your "manifest.json" to look like this:
 }
 ```
 
-<!-- #backlog:300 What else to say about the @id of a manifest? -->
+<!-- #backlog:390 What else to say about the @id of a manifest? -->

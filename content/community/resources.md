@@ -11,4 +11,4 @@ The [Awesome IIIF](https://github.com/IIIF/awesome-iiif) list includes lots of p
 
 If you can't find something, please do [reach out to the community for help](help.md).
 
-<!-- #backlog:10 add more resources to the resources page -->
+<!-- #backlog:110 add more resources to the resources page -->

@@ -65,7 +65,7 @@ Common ways that this is used is for linking to descriptive metadata in various 
 
 The best [documentation on linking to OCR][linking-ocr] has been created by the [Newspapers Community Group][newspapers-group].
 
-<!-- #backlog:400 link to the Europeana schema.org study when that is published -->
+<!-- #backlog:470 link to the Europeana schema.org study when that is published -->
 
 ## `service`
 

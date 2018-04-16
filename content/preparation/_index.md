@@ -19,4 +19,4 @@ That's it. With just those and a network connection you ought to be able to foll
 
 If you're unfamiliar with using a [command line interface](cli.md), you may want to gain some familiarity.
 
-<!-- #backlog:0 If you would like to work on some of the more technical aspects of the workshop, please follow the [bonus setup](bonus-setup.md) instructions. -->
+<!-- #backlog:10 If you would like to work on some of the more technical aspects of the workshop, please follow the [bonus setup](bonus-setup.md) instructions. -->

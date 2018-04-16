@@ -66,8 +66,7 @@ OpenSeadragon({
 ## Leaflet
 
 **Try zooming in for it to work in Leaflet**:
-{% include "../includes/image/leaflet.html" %}
-{% include "../includes/image/leaflet-starfish.html" %}
+{{< leaflet "http://localhost:3000/starfish/info.json" >}}
 
 ### Run the Full Version of the Static Demo
 

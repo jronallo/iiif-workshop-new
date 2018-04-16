@@ -23,7 +23,7 @@ Here's what we'll cover:
 - Metadata
 - License
 
-<!-- #backlog:230 Consider covering these aspects of Presentation as well: ranges and structures; layers; otherContent; within -->
+<!-- #backlog:320 Consider covering these aspects of Presentation as well: ranges and structures; layers; otherContent; within -->
 
 ## Example
 

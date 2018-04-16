@@ -40,4 +40,4 @@ The following resources were helpful in creating this workshop.
 - [IIIF YouTube channel](http://www.youtube.com/channel/UClcQIkLdYra7ZnOmMJnC5OA)
 
 
-<!-- #backlog:50 add the IIIF youtube channel? -->
+<!-- #backlog:160 add the IIIF youtube channel? -->

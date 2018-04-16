@@ -24,7 +24,7 @@ We'll cover:
 - Adding a content search service to a manifest
 - How to get text to search
 
-<!-- #backlog:440 write a bit about different levels of discovery. First discover the resource; then discover within the resource -->
+<!-- #backlog:500 write a bit about different levels of discovery. First discover the resource; then discover within the resource -->
 
 <!-- #todo:310 write a bit about the level at which "within" works. what do you call a resource? Is it a single bound book? A multivolume work? -->
 

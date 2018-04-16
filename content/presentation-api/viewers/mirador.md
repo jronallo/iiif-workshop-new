@@ -38,8 +38,8 @@ You should see your "Papillons" image show up. Click on it.
 
 ## Exercises and Questions
 
-<!-- #backlog:100 Add more exercises and questions around Mirador -->
-<!-- #backlog:360 consider adding the same questions for both Universal Viewer and Mirador -->
+<!-- #backlog:210 Add more exercises and questions around Mirador -->
+<!-- #backlog:440 consider adding the same questions for both Universal Viewer and Mirador -->
 
 - How can you make the viewer full screen?
 - How would you create an annotation?

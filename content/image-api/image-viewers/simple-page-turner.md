@@ -9,7 +9,7 @@ While we'll cover more full-featured viewers when we get to the Presentation API
 1. You can see a [simple example of OpenSeadragon as a page turner](https://openseadragon.github.io/examples/tilesource-iiif/).
 
 2. Make your browser _very_ narrow on your screen and then open [this example of a simple page turner in Leaflet](https://d.lib.ncsu.edu/collections/catalog/ua102_200-002-bx0009-003-175).
-<!-- #backlog:1000 once the NCSU Libraries example no longer uses Leaflet use a different example -->
+<!-- #backlog:660 once the NCSU Libraries example no longer uses Leaflet use a different example -->
 
 ## Questions
 

@@ -12,10 +12,10 @@ We'll dive in to working with IIIF as quickly as possible. We'll keep prefatory 
 
 <!-- These todos apply to the creation of the gitbook. -->
 
-<!-- #backlog:0 image captions. maybe https://plugins.gitbook.com/plugin/image-captions -->
+<!-- #backlog:80 image captions. maybe https://plugins.gitbook.com/plugin/image-captions -->
 
-<!-- #backlog:0 add footer. possibly this one: https://plugins.gitbook.com/plugin/footer -->
+<!-- #backlog:60 add footer. possibly this one: https://plugins.gitbook.com/plugin/footer -->
 
-<!-- #backlog:0 add edit link to every page. possibly with this plugin https://github.com/rtCamp/gitbook-plugin-edit-link -->
+<!-- #backlog:50 add edit link to every page. possibly with this plugin https://github.com/rtCamp/gitbook-plugin-edit-link -->
 
-<!-- #backlog:0 add different blurb styles. possible plugin: https://plugins.gitbook.com/plugin/blurbs -->
+<!-- #backlog:40 add different blurb styles. possible plugin: https://plugins.gitbook.com/plugin/blurbs -->

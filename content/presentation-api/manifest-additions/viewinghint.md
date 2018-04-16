@@ -55,6 +55,6 @@ Take a look at a [roll-codex](http://rollinghistory.bodleian.ox.ac.uk/) in the [
 - When might you use a `viewingHint` of "continuous"?
 - Are these viewing hints sufficient for representing the kinds of resources you have?
 
-<!-- #backlog:330 add other questions about viewingHint and viewing direction -->
+<!-- #backlog:420 add other questions about viewingHint and viewing direction -->
 
 <!-- #todo:260 find examples of interesting resources that use different viewing hints and viewing directions -->

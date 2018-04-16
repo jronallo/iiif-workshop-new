@@ -20,7 +20,7 @@ Before looking at some of the examples, take a moment to ask yourself these ques
 - How can you export data from these systems? Do you have adequate APIs into your systems?
 - Will you be able to dynamically query for data via APIs or will you need to export data dumps?
 
-<!-- #backlog:30 Maybe this is already covered: Show how different types of data that might be coming from different systems get mapped into IIIF. Talk about how to approach that mapping and automating output of manifests. -->
+<!-- #backlog:130 Maybe this is already covered: Show how different types of data that might be coming from different systems get mapped into IIIF. Talk about how to approach that mapping and automating output of manifests. -->
 
 ## Iterative Examples
 

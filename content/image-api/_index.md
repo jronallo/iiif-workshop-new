@@ -15,11 +15,11 @@ In this section you'll learn about [version 2.1.1 of the Image API](http://iiif.
 
 You'll gain hands-on experience working with the Image API.
 
-<!-- #backlog:390 What other learning objectives? -->
+<!-- #backlog:460 What other learning objectives? -->
 
 ## What the Image API is Not
 
 - The Image API does not give structure for viewing a series of images.
 - The Image API does not allow for showing descriptive metadata with the image.
 - The Image API does not provide every possible image manipulation you might want. It is not Photoshop.
-<!-- #backlog:220 Any other things we might want to say about what the Image API is not? -->
+<!-- #backlog:310 Any other things we might want to say about what the Image API is not? -->

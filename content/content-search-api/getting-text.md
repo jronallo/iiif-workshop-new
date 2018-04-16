@@ -12,5 +12,5 @@ Common ways to get text include:
 - Transcription
 
 <!-- #backlog:530 any other ways folks are getting content search text? -->
-<!-- #backlog:0 mention ocracoke? Do an exercise with ocracoke once we have the VM set up? -->
-<!-- #backlog:610 mention transcription services? -->
+<!-- #backlog:90 mention ocracoke? Do an exercise with ocracoke once we have the VM set up? -->
+<!-- #backlog:580 mention transcription services? -->

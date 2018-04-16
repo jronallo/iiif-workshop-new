@@ -4,7 +4,7 @@ date: 2018-04-15T13:57:01-04:00
 weight: 9
 ---
 
-<!-- #backlog:290 What else should we add to the auth section? -->
+<!-- #backlog:380 What else should we add to the auth section? -->
 
 http://iiif.io/api/auth/1.0/
 
@@ -14,7 +14,7 @@ The Authentication API helps to orchestrate a workflow so that untrusted applica
 
 How you handle a logged in user differently from any other user is an implementation detail. Options include showing the user a lower resolution or degraded version of the image.
 
-<!-- #backlog:0 could degraded access also include displaying less metadata about the resource? -->
+<!-- #backlog:70 could degraded access also include displaying less metadata about the resource? -->
 
 ![](/images/auth-workflow.jpg)
 

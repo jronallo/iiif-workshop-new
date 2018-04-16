@@ -17,7 +17,7 @@ We'll answer these questions:
 
 We'll learn how to read a manifest by writing one. As we go through it'll be best to write it out yourself than to just copy and paste, but if you feel like you're falling behind there are full examples along the way that you can use.
 
-<!-- #backlog:0 what other learning objectives should we have for Presentation? -->
+<!-- #backlog:100 what other learning objectives should we have for Presentation? -->
 
 ## Basic Types
 

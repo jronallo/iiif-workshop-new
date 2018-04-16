@@ -58,7 +58,7 @@ We'll see more later about how [Mirador](../presentation/mirador.md) can be used
 
 Take a look at how the [Boxwood Project](http://boxwood.ago.ca/) from the Art Gallery of Ontario uses Mirador to compare objects.
 
-<!-- #backlog:0 What's the Mirador version of this? https://www.nga.gov/content/ngaweb/Collection/art-object-page.60.html#entry see figure 5 -->
+<!-- #backlog:20 What's the Mirador version of this? https://www.nga.gov/content/ngaweb/Collection/art-object-page.60.html#entry see figure 5 -->
 
 [Compariscope]: https://vanda.github.io/iiif-features/compariscope.html
 [x-rays]: https://www.vam.ac.uk/articles/x-raying-balenciaga

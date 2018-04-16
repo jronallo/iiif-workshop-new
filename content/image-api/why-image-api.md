@@ -26,4 +26,4 @@ IIIF standards for images solve a number of challenges with images on the web:
 
 Even if you are already delivering deep zoom images, by adopting the IIIF Image API you will gain the ability to use a new range of viewers and tools. Your users will too.
 
-<!-- #backlog:20 add more to _why_ IIIF images -->
+<!-- #backlog:120 add more to _why_ IIIF images -->

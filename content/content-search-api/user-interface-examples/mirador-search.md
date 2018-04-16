@@ -10,10 +10,11 @@ Replace the object below with "The Biocrats" or the issue of the "Nubian Message
 Open up the side panel.
 
 Search for something.
+
 - Nubian Message: "panther"
 - Biocrats: "marriage"
 
-{% include "../includes/presentation/mirador-iframe.html" %}
+{{% mirador %}}
 
 Alternatively drag these images and drop them over Mirador:
 

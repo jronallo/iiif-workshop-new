@@ -62,7 +62,7 @@ Open [Mirador](../viewers/mirador.html) and create some annotations over top of 
 Take a look at some of the examples of how the same annotations allow for different interactions with the Holbein painting:
 http://storiiies.cogapp.com/
 
-<!-- #backlog:40 make video of one of the holbein examples -->
+<!-- #backlog:150 make video of one of the holbein examples -->
 
 Explore the navigation of [the tiles of a quilt](http://ghp.wellcomecollection.org/annotation-viewer/quilt).
 

@@ -4,7 +4,7 @@ date: 2018-04-15T14:00:18-04:00
 weight: 20
 ---
 
-<!-- #backlog:200 improve the image information info.json section -->
+<!-- #backlog:290 improve the image information info.json section -->
 
 http://iiif.io/api/image/2.1/#technical-properties
 
@@ -50,7 +50,7 @@ We've already seen what the identifier for a IIIF image is.
 Note that the `@id` is the part of an image URI up to the image identifier portion of the URI for an image request.
 {{% /notice %}}
 
-<!-- #backlog:260 is this about the @id in the info.json clear enough? -->
+<!-- #backlog:350 is this about the @id in the info.json clear enough? -->
 
 ## Protocol
 
@@ -75,7 +75,7 @@ The `scaleFactors` list the values for different resolutions. The specification 
 > The set of resolution scaling factors for the image’s predefined tiles, expressed as positive integers by which to divide the full size of the image. For example, a scale factor of 4 indicates that the service can efficiently deliver images at 1/4 or 25% of the height and width of the full image. A particular scale factor value should appear only once in the tiles list.
 
 The result is that tiles (except on the edges) are always the same width, but the scale factors represent the different sizes of the full image that the the tiles are a part of.
-<!-- #backlog:210 scaleFactors can be confusing. how to make it clearer how this works? -->
+<!-- #backlog:300 scaleFactors can be confusing. how to make it clearer how this works? -->
 
 ## `profile`
 
