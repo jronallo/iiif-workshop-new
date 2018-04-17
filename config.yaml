@@ -12,6 +12,9 @@ params:
 
 menu:
   shortcuts:
+    - name: Mirador
+      url: "viewers/mirador.html"
+      weight: 1
     - name: Feedback
       url: "links/feedback"
       weight: 10
