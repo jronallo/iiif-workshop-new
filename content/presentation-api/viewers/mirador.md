@@ -12,9 +12,9 @@ To view our example manifest either look at the embedded viewer below or use the
 
 Here's an embedded Mirador viewer pointing to our local manifest already.
 
-{% include "../includes/presentation/mirador-iframe.html" %}
+{{< mirador >}}
 
-<a href="mirador.html" target="_blank">open Mirador in a new window</a>
+<a href="/viewers/mirador.html" target="_blank">open Mirador in a new window</a>
 
 <!-- #todo:210 actually vendor the mirador viewer code into the workshop materials for offline use -->
 
