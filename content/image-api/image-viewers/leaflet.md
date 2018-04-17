@@ -18,4 +18,4 @@ This HTML code sets everything up. This HTML code of a short script uses the `in
 
 {{< highlight html "linenos=table,hl_lines=21,linenostart=1" >}}
 {{% leaflet "https://iiif.lib.ncsu.edu/iiif/mc00042-005-ff0033-000-001_0001/info.json" %}}
-{{< / highlight >}}
+{{< /highlight >}}

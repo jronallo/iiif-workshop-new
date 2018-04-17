@@ -82,9 +82,10 @@ OK, by now you should get the idea that sections of your manifest like the canva
 
 Here's what the manifest with more images will look like now:
 
-```json
-!INCLUDE "../manifests/presentation-add-more-images.json"
-```
+{{< highlight json >}}
+{{< manifest presentation-add-more-images >}}
+{{< /highlight>}}
+
 
 [img1]: https://iiif.lib.ncsu.edu/iiif/segPap_001/full/175,/0/default.jpg
 [url1]: https://d.lib.ncsu.edu/collections/catalog/segPap_001

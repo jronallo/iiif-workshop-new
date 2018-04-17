@@ -2,6 +2,4 @@
 
 ## TODOS
 
-- #todo:10 search for "!INCLUDE" and replace with appropriate template or shortcode
-- #todo:20 embed UV
-- #todo:30 embed Mirador
+- #todo:40 for each section of workshop highlight the relevant section of the manifest for that page

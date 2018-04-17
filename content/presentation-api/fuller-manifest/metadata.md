@@ -69,6 +69,6 @@ The metadata portion ought to look something like this:
 
 <a href="../manifests/presentation-metadata.json" target="_blank">full manifest with metadata</a>
 
-```json
-!INCLUDE "../manifests/presentation-metadata.json"
-```
+{{< highlight json >}}
+{{< manifest presentation-metadata >}}
+{{< /highlight>}}
