@@ -8,17 +8,19 @@ We'll now do an exercise we're going to take an existing manifest and modify it 
 
 Here's our beginning manifest:
 
-```json
-!INCLUDE "../manifests/coin-before.json"
-```
+{{< highlight json >}}
+{{% manifest coin-before %}}
+{{< /highlight >}}
 
-1. [Copy the above manifest](../manifests/coin-before.json) into a file named "coin.json" and place it next to your "manifest.json" file in the ["iiif-workshop" directory](../preparation/directory.md) you're using for your [web server](../preparation/web-server.md).
+<!-- #todo:0 make "copy the above manifest" into a link to the manifest -->
+
+1. [Copy the above manifest](/manifests/coin-before.json) into a file named "coin.json" and place it next to your "manifest.json" file in the ["iiif-workshop" directory](/preparation/directory/) you're using for your [web server](/preparation/web-server/).
 
 2. Drag this coin onto Mirador below. (You may need to do this twice.)
 
   [![](http://gallica.bnf.fr/iiif/ark:/12148/btv1b8499946f/f1/full/150,/0/native.jpg)][this-coin]
 
-{% include "../includes/presentation/mirador-iframe.html" %}
+{{% mirador %}}
 
 This manifest already has two images on the single canvas. When you view it in Mirador only one shows up. The last image annotated onto the canvas covers over the the first image.
 

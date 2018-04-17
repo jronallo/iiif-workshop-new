@@ -1,0 +1,3 @@
+{{ $filename := index .Params 0 }}
+{{ $manifest := printf "manifests/%s.json" $filename }}
+{{ partial $manifest . }}
