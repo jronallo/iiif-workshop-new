@@ -2,7 +2,6 @@
 title: "Universal Viewer"
 date: 2018-04-15T14:50:54-04:00
 weight: 10
-uv_manifest: http://localhost:3000/manifest.json
 ---
 
 ## View Our Example Manifest
@@ -17,7 +16,7 @@ We've also embedded the UV demo here pointing to our local manifest.
 Note: If you don't already have a local web server and a manifest at http://localhost:3000/manifest.json then this embed won't work.
 {{% /notice %}}
 
-{% include "../includes/presentation/uv-iframe.html" %}
+{{< uv "http://localhost:3000/manifest.json" >}}
 
 <!-- #todo:230 Consider adding either an image with what UV ought to look like at this point or include another embed that points to the manifest we've created served up from this gitbook. -->
 

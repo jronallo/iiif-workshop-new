@@ -9,6 +9,7 @@ outputs:
 
 params:
   themeVariant: green
+  disableSearch: true
 
 menu:
   shortcuts:

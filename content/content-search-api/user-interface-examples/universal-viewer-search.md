@@ -3,13 +3,11 @@ title: Universal Viewer Content Search
 menuTitle: "Universal Viewer Search"
 date: 2018-04-15T17:28:28-04:00
 weight: 10
-uv_manifest: https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01/manifest
 ---
 
 In the form field that reads "search within this item" enter the search term "panther".
 
-{% include "../includes/presentation/uv-iframe.html" %}
-
+{{< uv "https://d.lib.ncsu.edu/collections/catalog/nubian-message-2003-04-01/manifest" >}}
 
 For another search inside example drag this image onto Universal Viewer and search for "marriage":
 
