@@ -70,7 +70,9 @@ OpenSeadragon({
 
 ### Run the Full Version of the Static Demo
 
-> Skip this section and go to the next if you have the above version working.
+{{% notice note %}}
+Skip this section and go to the next if you have the above version working.
+{{% /notice %}}
 
 Example of static image server:
 https://github.com/zimeon/iiif/tree/master/demo-static

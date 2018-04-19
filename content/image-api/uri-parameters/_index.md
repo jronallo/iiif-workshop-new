@@ -18,9 +18,11 @@ You can see more details of the [Image Request URI Syntax](http://iiif.io/api/im
 
 Let's construct our first IIIF URI together. We'll break it down into the base URI and then the parameters that can manipulate the image.
 
- Don't worry if you're not certain what everything does yet. We'll show a detailed example next.
+Don't worry if you're not certain what everything does yet. We'll show a detailed example next.
 
-> Open up a text editor to construct your image URL.
+{{% notice tip %}}
+Open up a text editor to construct your image URL.
+{{% /notice %}}
 
 ## Base URI
 
