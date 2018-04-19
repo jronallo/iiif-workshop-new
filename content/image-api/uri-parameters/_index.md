@@ -4,7 +4,7 @@ date: 2018-04-15T13:58:33-04:00
 weight: 30
 ---
 
-The Image API allows for taking a source image, applying URL parameters to extract a region of that image, and then doing some further basic image manipulation. We'll go through the parameters here. (And you can learn more about the [order of implementation](order-of-implementation.md) later.)
+The Image API allows for taking a source image, applying URL parameters to extract a region of that image, and then doing some further basic image manipulation. We'll go through the parameters here. (And you can learn more about the [order of implementation](order-of-implementation) later.)
 
 ![](/images/transformation.png)
 
@@ -30,7 +30,7 @@ The base URI includes only the scheme, server, prefix (optional), and identifier
 
 <div class="alert">{scheme}://{server}{/prefix}/{identifier}</div>
 
-This base URI is what is used to identify the resource (think linked data). We will see an example of this in a bit when we look at the [`info.json`](info.md).
+This base URI is what is used to identify the resource (think linked data). We will see an example of this in a bit when we look at the [`info.json`](/image-api/image-information).
 
 Any time you want an image at a particular size or some part of an image you'll start off with this base URI.
 
@@ -38,7 +38,7 @@ Any time you want an image at a particular size or some part of an image you'll 
 
 Scheme is the first part of the base URI. This is the `http` or `https` part of the URL.
 
-The [strong recommendation is that images be served over HTTPS](../bonus/https.md) in order to be able to be used within other HTTPS pages. If an image served over HTTP is included in a page served over HTTPS then browsers will complain about mixed content.
+The [strong recommendation is that images be served over HTTPS](/additional-considerations/https) in order to be able to be used within other HTTPS pages. If an image served over HTTP is included in a page served over HTTPS then browsers will complain about mixed content.
 
 We'll use `https` to start our URI:
 <div class="alert"><strong>https</strong>://</div>
