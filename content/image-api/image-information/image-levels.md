@@ -9,10 +9,14 @@ weight: 30
 
 ## Exercise
 
+{{% notice spec-info %}}
 Read about the various named features: http://iiif.io/api/image/2.1/#features
+{{% /notice %}}
 
+{{% notice spec-info %}}
 Look at the tables for what is supported at each compliance level:
 http://iiif.io/api/image/2.1/compliance/
+{{% /notice %}}
 
 Take a look at the features supported at each level as indicated by its URI by clicking on it:
 

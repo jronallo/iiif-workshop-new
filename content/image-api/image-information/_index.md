@@ -5,7 +5,11 @@ weight: 40
 ---
 
 <!-- #todo:60 aka info.json -->
-`info.json`
+aka `info.json`
+
+{{% notice spec-info %}}
+http://iiif.io/api/image/2.1/#image-information
+{{% /notice %}}
 
 In order to know things like the height and width of an image and the available sizes and tiles, the IIIF Image API specifies a standard way to request the information and the format the information should take.
 
@@ -19,5 +23,3 @@ We'll cover:
 
 - How to create an [Image Information URI](info-uri.md)
 - The [information and properties](info-properties.md) in the Image Information Response
-
-http://iiif.io/api/image/2.1/#image-information

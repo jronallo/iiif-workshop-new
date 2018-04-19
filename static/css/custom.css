@@ -32,3 +32,12 @@ body {
   padding: 60px;
   color: #01AAFD;
 }
+
+/* Custom notices */
+div.notices.spec-info p {
+    border-top: 30px solid #F0B37E;
+    background: #FFF2DB;
+}
+div.notices.spec-info p:first-child:after {
+    content: 'Specification Information';
+}

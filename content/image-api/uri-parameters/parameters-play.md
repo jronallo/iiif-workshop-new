@@ -41,7 +41,9 @@ Here are some questions you can ask yourself as you try out the examples:
 
 ## Region
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#region
+{{% /notice %}}
 
 | form        | examples                                                      |
 |:------------|:--------------------------------------------------------------|
@@ -52,7 +54,10 @@ http://iiif.io/api/image/2.1/#region
 
 ## Size
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#size
+{{% /notice %}}
+
 
 Try each of the following forms for size to see how images can be scaled.
 
@@ -68,7 +73,10 @@ Try each of the following forms for size to see how images can be scaled.
 
 ## Rotation
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#rotation
+{{% /notice %}}
+
 
 To see how rotation works it can be helpful to have a non-rotated version up as well your rotated and/or mirrored version.
 
@@ -79,7 +87,9 @@ To see how rotation works it can be helpful to have a non-rotated version up as 
 
 ## Quality
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#quality
+{{% /notice %}}
 
 Valid values are: color, gray, bitonal, default.
 
@@ -87,7 +97,9 @@ Valid values are: color, gray, bitonal, default.
 
 ## Format
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#format
+{{% /notice %}}
 
 Possible values for this image server: jpg and png.
 

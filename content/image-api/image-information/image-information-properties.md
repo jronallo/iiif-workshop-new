@@ -6,7 +6,9 @@ weight: 20
 
 <!-- #backlog:290 improve the image information info.json section -->
 
+{{% notice spec-info %}}
 http://iiif.io/api/image/2.1/#technical-properties
+{{% /notice %}}
 
 The information returned is JSON-LD.
 
