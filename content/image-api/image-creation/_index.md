@@ -9,6 +9,7 @@ weight: 80
 If you've decided to deploy an image server, you'll probably want to create an access derivative source image which is separate from your master preservation version of the image.
 
 Picking a source image involves various trade-offs including the following:
+
 - The size of the access derivative image that must be stored as the source image for the image server
 - The speed that format can be decoded to extract regions from an image
 - Complexity of the source image processing workflow
@@ -39,15 +40,12 @@ As JPEG2000 is a more complicated format than many others. It uses advanced tech
 
 ### Creating a JPEG2000 Image with Kakadu
 
-TODO
-<!-- #backlog:480 provide instructions for how to create a JPEG2000 image with Kakadu -->
+#todo:0 provide instructions for how to create a JPEG2000 image with Kakadu
 
 ### Creating a JPEG2000 Image with OpenJPEG
 
-TODO
-
-<!-- #backlog:330 Creating a JPEG2000 Image with OpenJPEG -->
+#todo:0 Creating a JPEG2000 Image with OpenJPEG
 
 ## Level 0 Implementation
 
-See the [page on static image servers](image-server-static.md) for an example of how to create a static, Level 0 implementation.
+See the [page on static image servers]({{<ref "static">}}) for an example of how to create a static, Level 0 implementation.

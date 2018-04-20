@@ -29,6 +29,7 @@ So: `{scheme}://{server}{/prefix}/{identifier}`
 Redirects to: `{scheme}://{server}{/prefix}/{identifier}/info.json`
 
 Try these examples:
+
 - https://iiif.lib.ncsu.edu/iiif/0008232
 - http://collections.frick.org/apis/iiif/image/v2/7337
 - https://dlcs.io/iiif-img/wellcome/1/05bf51b9-991f-476d-bff1-dd5e96c4e122

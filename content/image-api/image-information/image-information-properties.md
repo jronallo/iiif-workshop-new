@@ -12,7 +12,7 @@ http://iiif.io/api/image/2.1/#technical-properties
 
 The information returned is JSON-LD.
 
-> See also a little about [JSON and JSON-LD](bonus/json-ld.md).
+> See also a little about [JSON and JSON-LD]({{<ref "json-ld">}}).
 
 So what information is actually included in the information response?
 

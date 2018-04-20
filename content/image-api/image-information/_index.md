@@ -21,5 +21,5 @@ You usually won't be creating these documents but will rely on a script or an im
 
 We'll cover:
 
-- How to create an [Image Information URI](info-uri.md)
-- The [information and properties](info-properties.md) in the Image Information Response
+- How to create an [Image Information URI]({{<ref "image-information-uri">}})
+- The [information and properties]({{<ref "image-information-properties">}}) in the Image Information Response

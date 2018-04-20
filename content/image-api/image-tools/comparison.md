@@ -10,10 +10,11 @@ In some disciplines image comparison is an important approach for understanding 
 ## Leaflet
 
 You can use Leaflet to compare two images:
-- [side-by-side](http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-sbs.html)
-- [magnifying glass](http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-mag.html)
 
-What do you see that's different.
+- [side-by-side]
+- [magnifying glass]
+
+What do you see that's different?
 
 ## Compariscope
 
@@ -54,11 +55,14 @@ Van Gogh Walk links:
 
 ## Mirador
 
-We'll see more later about how [Mirador](../presentation/mirador.md) can be used for image comparison even with images across institutions.
+We'll see more later about how [Mirador]({{<ref "mirador">}}) can be used for image comparison even with images across institutions.
 
 Take a look at how the [Boxwood Project](http://boxwood.ago.ca/) from the Art Gallery of Ontario uses Mirador to compare objects.
 
 <!-- #backlog:20 What's the Mirador version of this? https://www.nga.gov/content/ngaweb/Collection/art-object-page.60.html#entry see figure 5 -->
+
+[side-by-side]: http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-sbs.html
+[magnifying glass]: http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-mag.html
 
 [Compariscope]: https://vanda.github.io/iiif-features/compariscope.html
 [x-rays]: https://www.vam.ac.uk/articles/x-raying-balenciaga

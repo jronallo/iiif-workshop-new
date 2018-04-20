@@ -29,15 +29,15 @@ You can search the [IIIF Awesome list](https://github.com/IIIF/awesome-iiif) for
 
 1. Download [this zip file](/assets/starfish.zip).
 
-2. Unzip the file into your ["iiif-workshop" directory](../preparation/directory.md). (You can use whatever tool you usually use to unzip an archive.)
+2. Unzip the file into your ["iiif-workshop" directory]({{<ref "directory">}}). (You can use whatever tool you usually use to unzip an archive.)
 
 3. Explore the files in the "starfish" directory.
 
-  You can use a file browser or the command line. If you use the command line to explore you can try to run `tree starfish` to see the full directory structure down to the files.
+    You can use a file browser or the command line. If you use the command line to explore you can try to run `tree starfish` to see the full directory structure down to the files.
 
-  > What are you finding in the directory?
+    > What are you finding in the directory?
 
-4. Start a [simple web server](../preparation/web-server.md) (if it isn't still running) pointing at your "iiif-workshop" directory.
+4. Start a [simple web server]({{<ref "web-server">}}) (if it isn't still running) pointing at your "iiif-workshop" directory.
 
 5. Visit: http://localhost:3000/starfish/full/750,/0/default.jpg
 
