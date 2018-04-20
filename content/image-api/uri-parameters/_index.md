@@ -4,7 +4,7 @@ date: 2018-04-15T13:58:33-04:00
 weight: 30
 ---
 
-The Image API allows for taking a source image, applying URL parameters to extract a region of that image, and then doing some further basic image manipulation. We'll go through the parameters here. (And you can learn more about the [order of implementation](order-of-implementation) later.)
+The Image API allows for taking a source image, applying URL parameters to extract a region of that image, and then doing some further basic image manipulation. We'll go through the parameters here. (And you can learn more about the [order of implementation]({{<ref "order-of-implementation">}}) later.)
 
 ![](/images/transformation.png)
 
