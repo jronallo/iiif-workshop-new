@@ -45,7 +45,9 @@ You will need to find the width and height to use for each canvas.
 
 > Where can you find the width and the height of each of the images?
 
-> Hint: You only need to look up one of the new images.
+{{% notice tip %}}
+Hint: You only need to look up one of the new images.
+{{% /notice %}}
 
 ```json
 {
@@ -78,7 +80,7 @@ OK, by now you should get the idea that sections of your manifest like the canva
 
 ## Manifest with More Images
 
-<a href="../manifests/presentation-add-more-images.json" target="_blank">full manifest with metadata</a>
+[full manifest with metadata](/manifests/presentation-add-more-images.json)
 
 Here's what the manifest with more images will look like now:
 

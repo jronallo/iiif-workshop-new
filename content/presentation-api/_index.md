@@ -11,6 +11,7 @@ This workshop will cover version 2.1.1 of the Presentation API.
 http://iiif.io/api/presentation/2.1/
 
 We'll answer these questions:
+
 - What is a manifest?
 - What is a canvas?
 - How do images and the Image API relate to the Presentation API?
@@ -21,6 +22,9 @@ We'll learn how to read a manifest by writing one. As we go through it'll be bes
 
 ## Basic Types
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#basic-types
+{{% /notice %}}
 
-<img src="/images/basic-types.png" id="basic-types">
+
+![](/images/basic-types.png)

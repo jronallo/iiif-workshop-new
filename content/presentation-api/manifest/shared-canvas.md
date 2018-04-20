@@ -6,7 +6,9 @@ weight: 10
 
 <!-- #backlog:550 harmonize with language from presentation/canvas.md -->
 
+{{% notice spec-info %}}
 http://iiif.io/model/shared-canvas/1.0/
+{{% /notice %}}
 
 A canvas is a coordinate space on which images can be painted. Images are painted onto a canvas through annotation. In the simple case we're only painting a single image annotation so that it fills the whole canvas.
 

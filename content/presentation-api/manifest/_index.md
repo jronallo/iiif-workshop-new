@@ -4,7 +4,9 @@ date: 2018-04-15T14:48:22-04:00
 weight: 20
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#manifest
+{{% /notice %}}
 
 One of the main concepts for the Presentation API is the Manifest.
 

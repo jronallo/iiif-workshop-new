@@ -21,6 +21,8 @@ These examples originally come from the [Universal Viewer Showcase](http://unive
 - [Ghent University](http://lib.ugent.be/viewer/archive.ugent.be%3A4B39C8CA-6FF9-11E1-8C42-C8A93B7C8C91) | [manifest](http://adore.ugent.be/IIIF/manifests/archive.ugent.be%3A4B39C8CA-6FF9-11E1-8C42-C8A93B7C8C91)
 - [Riksarkivet](https://sok.riksarkivet.se/bildvisning/R0000004_00001?viewer=UV) | [manifest](https://iiif.riksarkivet.se/arkis!R0000004/manifest)
 
+<!-- #todo:0 fix example manifest links to UV and Mirador -->
+
 ## National Gallery of Art
 
 - [manifest](https://media.nga.gov/public/manifests/nga_highlights.json)

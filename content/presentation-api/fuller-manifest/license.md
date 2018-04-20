@@ -22,5 +22,5 @@ At the top-level of your manifest add a license:
 
 How does the license property display in [Universal Viewer] and [Mirador]?
 
-[Universal Viewer]: ../viewers/uv.html
-[Mirador]: ../viewers/mirador.html
+[Universal Viewer]: /viewers/uv.html
+[Mirador]: /viewers/mirador.html

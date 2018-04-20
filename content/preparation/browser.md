@@ -48,3 +48,7 @@ Sometimes ad blocker extensions (especially algorithmic blockers like Privacy Ba
 ## Multiple Windows
 
 Make sure you know how to place two browser windows next to each other. As you work through some exercises it will be helpful to have two windows open side by side.
+
+## Open in a New Window
+
+Make sure you know how to open a link in a new window. The context menu for a link (sometimes a right click) will give the option to open a link in a new tab or window.

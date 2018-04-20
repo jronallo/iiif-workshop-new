@@ -14,7 +14,7 @@ Collections group separate IIIF manifests. Institutions have taken a couple of d
 
 http://universalviewer.io/uv.html?manifest=http://dams.llgc.org.uk/iiif/newspapers/3100020.json
 
-You can open a <a href="../manifests/collection-newspapers-truncated.json" target="_blank">truncted version of this manifest</a>.
+You can open a [truncted version of this manifest](/manifests/collection-newspapers-truncated.json).
 
 Note the use of the `navDate` which the viewer can use to order the manifests by date.
 

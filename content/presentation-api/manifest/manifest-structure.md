@@ -14,7 +14,7 @@ The content we have is an image. In our case we'll also have an image server ser
 
 ## Canvas
 
-The next layer up and out we have our [shared canvas](shared-canvas.md) that can have our image content painted onto it.
+The next layer up and out we have our [shared canvas]({{<ref "shared-canvas">}}) that can have our image content painted onto it.
 
 ![](/images/presentation-chart-canvas.png)
 

@@ -30,7 +30,7 @@ The base URI includes only the scheme, server, prefix (optional), and identifier
 
 <div class="alert">{scheme}://{server}{/prefix}/{identifier}</div>
 
-This base URI is what is used to identify the resource (think linked data). We will see an example of this in a bit when we look at the [`info.json`]({{<ref "image-information">}}).
+This base URI is what is used to identify the resource (think linked data). We will see an example of this in a bit when we look at the [`info.json`]({{<ref "image-api/image-information">}}).
 
 Any time you want an image at a particular size or some part of an image you'll start off with this base URI.
 

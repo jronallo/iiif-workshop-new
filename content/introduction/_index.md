@@ -8,7 +8,7 @@ This workshop will give you experience with the Image and Presentation APIs and 
 We'll learn about IIIF through live, interactive demonstrations and hands-on exercises.
 
 {{% notice note %}}
-For some exercises you'll create JSON objects manually. You'd never do it this way at scale for a production application, but this hands-on approach can help with looking more closely and better understanding the structure of the IIIF API.
+For some exercises you'll create JSON objects manually. You'd never do it this way at scale for a production application, but this hands-on approach can help with looking more closely and better understanding the structure of the IIIF API. You'll also get to work with the JSON in the editor of your choice with the same syntax highlighting you'll have when you're debugging your own implementation.
 {{% /notice %}}
 
 {{% notice tip %}}

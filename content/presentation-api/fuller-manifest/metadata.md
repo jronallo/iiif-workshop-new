@@ -4,11 +4,14 @@ date: 2018-04-15T14:51:37-04:00
 weight: 10
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#metadata
+{{% /notice %}}
+
 
 The descriptive metadata that is usually provided is just enough data so that a user can know what they're looking at.
 
-> Semantic descriptive metadata can be [linked as a `seeAlso` reference](linking.md#seealso) allowing different communities to expose their full metadata.
+> Semantic descriptive metadata can be [linked as a `seeAlso` reference]({{<ref "linking-properties#seealso">}}) allowing different communities to expose their full metadata.
 
 As the Presentation API is intended to present resources to users rather than for machines to understand the meaning of metadata, the `metadata` property contains a list of labels and values. So a simple piece of metadata would look like this:
 
@@ -45,7 +48,7 @@ Let's go back to our manifest. At the top level we'll add a `metadata` property 
 | Created Date | circa 1920-1929                  |
 
 
-As you update your manifest view the results in [Universal Viewer](universal-viewer.md) and [Mirador](mirador.md) to see how the metadata displays.
+As you update your manifest view the results in [Universal Viewer](/viewers/uv.html) and [Mirador](/viewers/mirador.html) to see how the metadata displays.
 
 ## Metadata Portion
 
@@ -67,7 +70,7 @@ The metadata portion ought to look something like this:
 
 ## Full Manifest
 
-<a href="../manifests/presentation-metadata.json" target="_blank">full manifest with metadata</a>
+[full manifest with metadata](/manifests/presentation-metadata.json)
 
 {{< highlight json >}}
 {{< manifest presentation-metadata >}}

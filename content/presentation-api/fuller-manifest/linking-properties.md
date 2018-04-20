@@ -8,10 +8,10 @@ http://iiif.io/api/presentation/2.1/#linking-properties
 
 The IIIF Presentation API recognizes that your resources are complicated, compound objects that are a part of other objects. A Resource can be associated with related resources on the web. Resources are often available in other formats. IIIF allows for expressing these linkages through the following linking properties.
 
+<!-- #todo:0 why can't this link within a shortcode use the [][] style of markdown links from the footer? -->
 {{% notice note %}}
 In version 2 of the specification these properties seem underspecified. Use of these properties have [varied across institutions](https://github.com/benwbrum/fromthepage/wiki/IIIF-Linking-Properties-Usage-Survey). As linking properties have gotten more attention and use, this will likely be rectified in a future version of the specification.
 {{% /notice %}}
-
 
 Linking properties can be applied to any resource type. (Take a look at the [Summary of Metadata Requirements][summary-metadata] and scroll down to "Linking Properties".)
 
@@ -71,9 +71,9 @@ The best [documentation on linking to OCR][linking-ocr] has been created by the 
 
 > A link to a service that makes more functionality available for the resource, such as from an image to the base URI of an associated IIIF Image API service.
 
-We've already seen how the `service` property can be used to [add an Image API service to an image resource](image-service.md).
+We've already seen how the `service` property can be used to [add an Image API service to an image resource]({{<ref "image-service">}}).
 
-We'll see later how the `service` property can be used to [add a Content Search API service](../search/service-in-manifest.md) to a manifest.
+We'll see later how the `service` property can be used to [add Content Search API service]({{<ref "search-service">}}) to a manifest.
 
 It can also be used to [link to non-IIIF services](http://iiif.io/api/annex/services/) like [GeoJSON] and [physical dimensions].
 
@@ -93,6 +93,8 @@ Visit this [issue of the Nubian Message][nubian-message]. At the bottom right of
 
 Visit this [book of boxers]. Click on the download link.
 
+
+[linking properties use]: https://github.com/benwbrum/fromthepage/wiki/IIIF-Linking-Properties-Usage-Survey
 [summary-metadata]: http://iiif.io/api/presentation/2.1/#b-summary-of-metadata-requirements
 [GeoJSON]: http://iiif.io/api/annex/services/#geojson
 [physical dimensions]: http://iiif.io/api/annex/services/#physical-dimensions

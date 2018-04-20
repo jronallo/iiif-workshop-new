@@ -14,9 +14,11 @@ Here's our beginning manifest:
 
 <!-- #todo:0 make "copy the above manifest" into a link to the manifest -->
 
-1. [Copy the above manifest](/manifests/coin-before.json) into a file named "coin.json" and place it next to your "manifest.json" file in the ["iiif-workshop" directory](/preparation/directory/) you're using for your [web server](/preparation/web-server/).
+1. [Copy the above manifest](/manifests/coin-before.json) into a file named "coin.json" and place it next to your "manifest.json" file in the ["iiif-workshop" directory]({{<ref "directory">}}) you're using for your [web server]({{<ref "web-server">}}).
 
-2. Drag this coin onto Mirador below. (You may need to do this twice.)
+2. Make sure you can open the JSON at http://localhost:3000/coin.json
+
+3. Drag this coin onto Mirador below. (You may need to do this twice.)
 
   [![](http://gallica.bnf.fr/iiif/ark:/12148/btv1b8499946f/f1/full/150,/0/native.jpg)][this-coin]
 
@@ -38,13 +40,13 @@ You'll need to do two things:
 
 1. Change the dimensions of the canvas so that it can hold two images that are each 2610 pixels wide by 2610 pixels high.
 
-  > What's the width of the canvas needed to hold both images side-by-side?
+    > What's the width of the canvas needed to hold both images side-by-side?
 
 2. Annotate each image onto a region of the canvas.
 
-  > Change the `on` property to include information for where on the canvas the image ought to be placed. See the previous page in these materials for more information on how to do this.
+    > Change the `on` property to include information for where on the canvas the image ought to be placed. See the previous page in these materials for more information on how to do this.
 
-  > Consider taking a piece of paper to sketch out the layout and do the math. Note that counting pixels starts a zero.
+    > Consider taking a piece of paper to sketch out the layout and do the math. Note that counting pixels starts a zero.
 
 ---
 
@@ -52,10 +54,11 @@ You'll need to do two things:
 
 1. The width of the final canvas should be 5220 pixels wide.
 2. The first image should be off to the left and the second image to the right using these values at the end of the `on` parameter for each image.
+
   - first image: `#xywh=0,0,2610,2610`
   - second image: `#xywh=2610,0,2610,2610`
 
-[Get the final manifest here](../manifests/coin-after.json). Copy it as "coin.json" and load it into Mirador again.
+[Get the final manifest here](/manifests/coin-after.json). Copy it as "coin.json" and load it into Mirador again.
 
 In the end ought to see something like the following:
 
