@@ -4,7 +4,7 @@ date: 2018-04-15T13:56:39-04:00
 weight: 7
 ---
 
-In addition to the two core APIs ([Image](image/README.md) and [Presentation](presentation/README.md)) there are currently two other APIs:
+In addition to the two core APIs ([Image]({{<ref "image-api">}}) and [Presentation]({{<ref "presentation-api">}})) there are currently two other APIs:
 
-- [Content Search API](search/README.md)
-- [Authentication API](authentication/README.md)
+- [Content Search API]({{<ref "content-search-api">}})
+- [Authentication API]({{<ref "authentication-api">}})

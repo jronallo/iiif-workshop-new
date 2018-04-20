@@ -4,7 +4,7 @@ date: 2018-04-15T13:31:47-04:00
 weight: 10
 ---
 
-Any recent version of Chrome or Firefox ought to work. Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server](/preparation/web-server) involves installing a Chrome extension, you may choose to use Chrome.
+Any recent version of Chrome or Firefox ought to work. Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server]({{<ref "web-server">}}) involves installing a Chrome extension, you may choose to use Chrome.
 
 Instructions have been tested with the following (and may work for versions just below):
 

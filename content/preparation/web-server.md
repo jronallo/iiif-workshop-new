@@ -13,7 +13,7 @@ While you can use standard web servers like Apache or Nginx, you're on your own 
 
 ## Chrome Extension
 
-The easiest way to get a web server running is to use the [Web Server for Chrome extension](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en).
+The easiest way to get a web server running is to use the [Web Server for Chrome extension][chrome web server].
 
 Here's how it ought to be set up. Make sure to check the "Set CORS headers" box.
 
@@ -95,3 +95,5 @@ If all else fails you can create a Github Gist:
 4. You can now use that file URL in some of the exercises.
 
 _Note that some exercise pages expect resources to be served from <http://localhost:3000>._
+
+[chrome web server]: https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en

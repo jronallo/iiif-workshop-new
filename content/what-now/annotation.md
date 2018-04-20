@@ -26,7 +26,7 @@ Annotations can be useful for:
 
 <!-- #todo:160 While annotation is specified outside of IIIF it is useful to have a basic understanding of how annotations work. -->
 
-![](/images/annotation-body-target.md)
+![](/images/annotation-body-target.png)
 
 An annotation target is a URI pointing in whole or in part (fragment) to a resources like:
 
@@ -51,7 +51,7 @@ Annotations are created for different reasons like:
 
 ## Creating Annotations
 
-Open [Mirador](../viewers/mirador.html) and create some annotations over top of an image.
+Open [Mirador]({{<ref "mirador" >}}) and create some annotations over top of an image.
 
 - How are annotations displayed?
 - What different types of annotations can you create?
@@ -64,9 +64,9 @@ http://storiiies.cogapp.com/
 
 <!-- #backlog:150 make video of one of the holbein examples -->
 
-Explore the navigation of [the tiles of a quilt](http://ghp.wellcomecollection.org/annotation-viewer/quilt).
+Explore the navigation of [the tiles of a quilt][quilt].
 
-Scroll down this page to [see hot spot annotation](https://www.vam.ac.uk/articles/the-butler-bowdon-cope).
+Scroll down this page to [see hot spot annotation][hot spot].
 
 Here's a video showing annotation using Mirador which is stored in the SimpleAnnotationServer and then presented as a search inside service to the Universal Viewer:
 
@@ -88,6 +88,8 @@ What kinds of data do you have for annotations?  How could you get those into an
 
 While IIIF currently uses [Open Annotation][open-annotation], the specifications will be moving to [Web Annotation][web-annotation]. The [Web Annotation Data Model][web-annotation-data-model] includes lots of examples with use cases and JSON that make it an easy to read specification.
 
+[quilt]: http://ghp.wellcomecollection.org/annotation-viewer/quilt
+[hot spot]: https://www.vam.ac.uk/articles/the-butler-bowdon-cope
 [open-annotation]: http://iiif.io/api/annex/openannotation/index.html
 [web-annotation]: https://www.w3.org/blog/news/archives/6156
 [web-annotation-data-model]: https://www.w3.org/TR/2017/REC-annotation-model-20170223/

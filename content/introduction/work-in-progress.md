@@ -3,7 +3,7 @@ title: Work in Progress
 weight: 20
 ---
 
-This workshop is a work in progress. [Feedback](/links/feedback) is welcome.
+This workshop is a work in progress. [Feedback]({{<ref "feedback">}}) is welcome.
 
 <!-- #backlog:510 add some kind of notes about how we could use feedback to make this better -->
 

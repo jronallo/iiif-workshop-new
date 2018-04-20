@@ -1,4 +1,6 @@
-baseURL: https://ronallo.com/iiif-workshop-new/
+# baseURL: https://ronallo.com/iiif-workshop-new/
+relativeURLs: true
+uglyURLs: true
 languageCode: en-us
 title: IIIF Technical Workshop
 theme: hugo-theme-learn
@@ -17,11 +19,11 @@ menu:
       url: "viewers/mirador.html"
       weight: 1
     - name: Feedback
-      url: "links/feedback"
+      url: "links/feedback.html"
       weight: 10
     - name: Credits
-      url: "links/credits"
+      url: "links/credits.html"
       weight: 20
     - name: License
-      url: "links/license"
+      url: "links/license.html"
       weight: 30
