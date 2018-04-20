@@ -11,7 +11,10 @@ outputs:
 
 params:
   themeVariant: green
-  disableSearch: true
+  disableSearch: false
+  disableInlineCopyToClipBoard: true
+  author: Jason Ronallo
+  showVisitedLinks: true
 
 menu:
   shortcuts:
