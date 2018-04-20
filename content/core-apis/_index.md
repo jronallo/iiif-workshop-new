@@ -36,6 +36,6 @@ Then you can add the Presentation API so that you and your users can take advant
 
 The hope is that this workshop will give you a thorough introduction to these core APIs so that you can prioritize and plan your implementation.
 
-As we near the end of the section on the core APIs, we'll come back to talking about how to take an [iterative approach to implementation](../presentation/data-workflows.md#iterative-example).
+As we near the end of the section on the core APIs, we'll come back to talking about how to take an [iterative approach to implementation]({{<ref "data-workflows#iterative-examples">}}).
 
 <!-- #backlog:450 write more about the the core APIs? -->

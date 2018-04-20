@@ -26,7 +26,7 @@ Remember the search service results match up with the `@id` of the canvas. This 
 
 <!-- #backlog:180 write more about services -->
 
-We've seen already how it is possible to [add an image service](../presentation/image-service.md) for an image. We can add other services that add functionality as well.
+We've seen already how it is possible to [add an image service]({{<ref "image-service">}}) for an image. We can add other services that add functionality as well.
 
 {{% notice note %}}
 The services that are added don't have to live in the same domain or even be run by the same institution. In the same way that we can add images to a manifest or canvas from a number of different images, we can also add services in a distributed way.
@@ -67,7 +67,7 @@ Don't copy/paste the "...". This is just a convention to note that other propert
 
 Once you've added this you ought to be able to search:
 
-- Reload [Universal Viewer](../viewers/uv.html) or clear the cache
+- Reload [Universal Viewer](/viewers/uv.html) or clear the cache
 - Enter "amazon" into the search box
 - Press Enter
 
@@ -99,6 +99,6 @@ Now make your search service look like this:
 }
 ```
 
-Now if you refresh [Universal Viewer](../viewers/uv.html) and do a search you should begin to see suggestions show up above the search box.
+Now if you refresh [Universal Viewer](/viewers/uv.html) and do a search you should begin to see suggestions show up above the search box.
 
 ![](/images/amazon-suggestions.png)

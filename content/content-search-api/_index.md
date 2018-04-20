@@ -19,6 +19,7 @@ Note that the IIIF Search API doesn’t specify how the search interface is pres
 What are the use cases you have at your institution for search inside?
 
 We'll cover:
+
 - User interface examples
 - The query interface
 - Adding a content search service to a manifest
