@@ -5,7 +5,9 @@ date: 2018-04-15T14:48:11-04:00
 weight: 10
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#introduction
+{{% /notice %}}
 
 - Many images for one object
   - book

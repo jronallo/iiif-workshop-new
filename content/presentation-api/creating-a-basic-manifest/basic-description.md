@@ -4,7 +4,10 @@ date: 2018-04-15T14:49:45-04:00
 weight: 40
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#descriptive-properties
+{{% /notice %}}
+
 
 There is some basic description you'll definitely want to add before you make a manifest available. We'll start with these properties: [`label`](http://iiif.io/api/presentation/2.1/#label), [`description`](http://iiif.io/api/presentation/2.1/#description), [`attribution`](http://iiif.io/api/presentation/2.1/#attribution), and [`logo`](http://iiif.io/api/presentation/2.1/#logo).
 

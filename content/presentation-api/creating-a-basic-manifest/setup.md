@@ -7,7 +7,7 @@ weight: 10
 
 Let's get set up to create a manifest. Below each step we'll give directions on how to do this from the terminal on a Mac. Feel free though to do each step however you'd like including using a GUI application.
 
-1. First make sure you've followed the instructions in both **[Web Server](../preparation/web-server.md)** and **[Web Server Directory](../preparation/directory.md)**
+1. First make sure you've followed the instructions in both **[web server]({{<ref "web-server">}})** and **[web server directory]({{<ref "directory">}})**.
 
     You should already have:
 

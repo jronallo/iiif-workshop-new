@@ -4,7 +4,9 @@ date: 2018-04-15T14:49:57-04:00
 weight: 60
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#canvas
+{{% /notice %}}
 
 ## Canvas in the Abstract
 
@@ -16,7 +18,7 @@ In order to deliver with these embedded annotations, there's no requirement to h
 {{% /notice %}}
 
 
-See the sections on [shared canvas](presentation/shared-canvas.md) and [manifest structure](presentation/manifest-structure.md) for more information on what a canvas is and how it fits into a manifest.
+See the sections on [shared canvas]({{<ref "shared-canvas">}}) and [manifest structure]({{<ref "manifest-structure">}}) for more information on what a canvas is and how it fits into a manifest.
 
 ## `canvases` Property
 
@@ -129,7 +131,7 @@ Now with our dimensions added, your sequence ought to look like this:
 
 ## Nesting
 
-We've now nested our canvas within our first sequence within the manifest. We'll have more nesting like this as we go further along. This deep nesting may be one of the more difficult pieces of the IIIF Presentation API to understand and remember. The diagrams in the specification can help remember the ordering: http://iiif.io/api/presentation/2.1/#resource-type-overview. Or refer back to [manifest structure](manifest-structure.md).
+We've now nested our canvas within our first sequence within the manifest. We'll have more nesting like this as we go further along. This deep nesting may be one of the more difficult pieces of the IIIF Presentation API to understand and remember. The diagrams in the specification can help remember the ordering: http://iiif.io/api/presentation/2.1/#resource-type-overview. Or refer back to [manifest structure]({{<ref "manifest-structure">}}).
 
 ```
 manifest

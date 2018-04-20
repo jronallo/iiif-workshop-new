@@ -4,7 +4,9 @@ date: 2018-04-15T14:50:04-04:00
 weight: 70
 ---
 
+{{% notice spec-info %}}
 http://iiif.io/api/presentation/2.1/#image-resources
+{{% /notice %}}
 
 An image is associated with a canvas via an annotation.
 
