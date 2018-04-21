@@ -13,3 +13,5 @@
 #todo:0 make sure that inline code blocks that are also links like `info.json` clearly show that they are links. /image-api/uri-parameters.html
 
 #todo:0 take more long links and use the reference style markdown links
+
+#todo:0 run link checker
