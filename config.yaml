@@ -19,14 +19,17 @@ params:
 menu:
   shortcuts:
     - name: Mirador
-      url: "viewers/mirador.html"
+      url: "/viewers/mirador.html"
+      weight: 1
+    - name: Universal Viewer
+      url: "/viewers/uv.html"
       weight: 1
     - name: Feedback
-      url: "links/feedback.html"
+      url: "/links/feedback.html"
       weight: 10
     - name: Credits
-      url: "links/credits.html"
+      url: "/links/credits.html"
       weight: 20
     - name: License
-      url: "links/license.html"
+      url: "/links/license.html"
       weight: 30
