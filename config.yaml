@@ -32,3 +32,6 @@ menu:
     - name: License
       url: "/links/license.html"
       weight: 30
+    # - name: Instructor's Guide
+    #   url: "/links/instructors-guide.html"
+    #   weight: 1000
