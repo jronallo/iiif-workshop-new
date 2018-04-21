@@ -56,7 +56,7 @@ We'll extend our URI with an image server:
 The prefix is optional but can be useful if the server hosts other services that need to live at different paths.
 
 In this case we will add `iiif` to the path:
-<div class="alert">https://iiif.lib.ncsu.edu/<strong>iiif</strong>/</div>
+<div class="alert"><span>https://</span>iiif.lib.ncsu.edu/<strong>iiif</strong>/</div>
 
 ### Identifier
 

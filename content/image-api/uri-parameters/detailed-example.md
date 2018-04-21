@@ -26,17 +26,17 @@ Let's walk through it.
 
 Highlighted is the portion of the URL that would be the same for all of the images delivered from the same image server.
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank><strong>https://iiif.lib.ncsu.edu/iiif/</strong>mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank><strong><span>https://</span>iiif.lib.ncsu.edu/iiif/</strong>mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg</a>
 
 ## Identifier
 
 The identifier is: `mc00198-008-ff0051-000-001_0001`
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/<strong>mc00198-008-ff0051-000-001_0001</strong>/2016,2280,1884,952/500,/0/default.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/<strong>mc00198-008-ff0051-000-001_0001</strong>/2016,2280,1884,952/500,/0/default.jpg</a>
 
 ## Region
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/<strong>2016,2280,1884,952</strong>/500,/0/default.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/<strong>2016,2280,1884,952</strong>/500,/0/default.jpg</a>
 
 Our single `xywh` parameter value is `2016,2280,1884,952`. We can break out the individual parameters like this:
 
@@ -93,7 +93,7 @@ Here's the region we've selected from the full image based on our `xywh` paramet
 
 That's still quite a large image so we can scale the image down. In this case the image is scaled down to 500 pixels and the height is scaled proportionally. We'll see other examples of possible size values in the next section.
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/<strong>500,</strong>/0/default.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/<strong>500,</strong>/0/default.jpg</a>
 
 ![](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/default.jpg)
 
@@ -101,7 +101,7 @@ That's still quite a large image so we can scale the image down. In this case th
 
 Let's say we wanted to rotate the image 180 degrees. Our URL would look like this:
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/<strong>180</strong>/default.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/<strong>180</strong>/default.jpg</a>
 
 ![](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.jpg)
 
@@ -109,7 +109,7 @@ Let's say we wanted to rotate the image 180 degrees. Our URL would look like thi
 
 We requested the default quality through. We could also ask for a gray version:
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/gray.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/<strong>gray</strong>.jpg</a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/gray.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/<strong>gray</strong>.jpg</a>
 
 ![](https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/0/gray.jpg)
 
@@ -117,4 +117,6 @@ We requested the default quality through. We could also ask for a gray version:
 
 We request a JPEG image:
 
-> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.jpg" target=_blank>https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.<strong>jpg</strong></a>
+> <a href="https://iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.jpg" target=_blank><span>https://</span>iiif.lib.ncsu.edu/iiif/mc00198-008-ff0051-000-001_0001/2016,2280,1884,952/500,/180/default.<strong>jpg</strong></a>
+
+<!-- #todo:0 remove awful spans around https:// trick to prevent creation of links for link checker -->

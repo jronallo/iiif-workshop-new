@@ -131,4 +131,4 @@ At the time of this writing the Carnegie Museum of Art uses a static image serve
 
 https://cmoa-records-images.s3.amazonaws.com/img/fv001_001_004_001_B004_F15_001-1/info.json
 
-You can see if it is still a static (level 0) implementation by looking for the `profile` that includes "http://iiif.io/api/image/2/level0.json".
+You can see if it is still a static (level 0) implementation by looking for the `profile` that includes "<http://iiif.io/api/image/2/level0.json>".

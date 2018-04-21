@@ -19,7 +19,7 @@ These examples originally come from the [Universal Viewer Showcase](http://unive
 - [Princeton](http://bluemountain.princeton.edu/exist/apps/bluemountain/issue.html?titleURN=bmtnaae&issueURN=bmtnaae_1918-12_01#viewer) | [manifest](http://bluemountain.princeton.edu/exist/restxq/iiif/bmtnaae_1918-12_01/manifest)
 - [NCSU Libraries](https://d.lib.ncsu.edu/collections/catalog/nubian-message-1992-11-30) | [manifest](https://d.lib.ncsu.edu/collections/catalog/nubian-message-1992-11-30/manifest)
 - [Ghent University](http://lib.ugent.be/viewer/archive.ugent.be%3A4B39C8CA-6FF9-11E1-8C42-C8A93B7C8C91) | [manifest](http://adore.ugent.be/IIIF/manifests/archive.ugent.be%3A4B39C8CA-6FF9-11E1-8C42-C8A93B7C8C91)
-- [Riksarkivet](https://sok.riksarkivet.se/bildvisning/R0000004_00001?viewer=UV) | [manifest](https://iiif.riksarkivet.se/arkis!R0000004/manifest)
+- [Riksarkivet](https://sok.riksarkivet.se/bildvisning/R0000004_00001?viewer=UV)
 
 <!-- #todo:0 fix example manifest links to UV and Mirador -->
 
@@ -37,7 +37,7 @@ These examples originally come from the [Universal Viewer Showcase](http://unive
 
 ## Journal
 
-- [manifest]( https://bit.ly/wt-journal https://wellcomelibrary.org/iiif/b1932795x/manifest)
+- [manifest](https://wellcomelibrary.org/iiif/b1932795x/manifest)
 - [UV](https://wellcomelibrary.org/item/b1932795x)
 - [Mirador](../viewers/mirador.html#?manifest=https://wellcomelibrary.org/iiif/b1932795x/manifest)
 

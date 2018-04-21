@@ -12,7 +12,11 @@ We're now going to reintegrate part of the print series in order to show how to 
 
 > If you have a asset management system which atomizes your resources, you can reconstruct them in full by creating a manifest.
 
-The base image server for all of these resource is: https://iiif.lib.ncsu.edu/iiif/
+The base image server for all of these resource is:
+
+```text
+https://iiif.lib.ncsu.edu/iiif/
+```
 
 At least add one of the images that comes before our current image.
 
