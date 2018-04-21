@@ -33,6 +33,7 @@ At least add one of the images that comes before our current image.
 Use your current canvas as a template for creating the other canvases.
 
 For each canvas you'll need to change:
+
 - @id
 - label
 - width

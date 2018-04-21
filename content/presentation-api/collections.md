@@ -36,6 +36,7 @@ https://wellcomelibrary.org/service/collections/
 ## Examples
 
 You can see some of the top-level collections that have been published here:
+
 - [JSON file containing some of the IIIF Universe](https://github.com/ryanfb/iiif-universe/blob/gh-pages/iiif-universe.json)
 - [spreadsheet collecting collections](https://docs.google.com/spreadsheets/d/1apQKFkfBV89BvycaBPN6v-LjeaKaVVMaMUsY6L4KRJo/edit)
 

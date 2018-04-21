@@ -10,8 +10,6 @@
 
 #todo:0 convert div class="alert" to shortcode?
 
-#todo:0 fix list spacing with preceding paragraph by searching for "- "
-
 #todo:0 make sure that inline code blocks that are also links like `info.json` clearly show that they are links. /image-api/uri-parameters.html
 
-#todo:0 take more long links and use the footnote style markdown links 
+#todo:0 take more long links and use the footnote style markdown links
