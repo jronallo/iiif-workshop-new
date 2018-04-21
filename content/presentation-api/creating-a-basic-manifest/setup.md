@@ -34,7 +34,7 @@ Let's get set up to create a manifest. Below each step we'll give directions on 
 
 3. **Open the directory in your browser**
 
-    If you used Web Server for Chrome according to the instructions, you can visit http://localhost:3000 or http://127.0.0.1:3000. From now on we'll use "localhost" in every case, but if that doesn't work, substitute "127.0.0.1".
+    If you used Web Server for Chrome according to the instructions, you can visit http://localhost:3000 or http://127.0.0.1:3000. From now on we'll use "localhost" in every case, but if that does not work, substitute "127.0.0.1".
 
     You should see something like this in your browser:
 

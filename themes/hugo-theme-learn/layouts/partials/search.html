@@ -10,7 +10,8 @@
     {{ if .Site.IsMultiLingual }}
         var baseurl = "{{.Site.LanguagePrefix | relURL }}";
     {{ else }}
-        var baseurl = '{{ "" | relURL }}';
+        // CHANGED: set this to the site baseurl
+        var baseurl = '{{ .Site.BaseURL }}';
     {{ end }}
 </script>
 <script type="text/javascript" src="{{"js/search.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
