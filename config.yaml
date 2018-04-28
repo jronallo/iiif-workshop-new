@@ -9,10 +9,12 @@ outputs:
   home: [ "HTML", "RSS", "JSON"]
 
 params:
+  author: Jason Ronallo
+  description: IIIF Technical Workshop
+  editURL: https://github.com/jronallo/iiif-workshop-new/edit/master/content/
   themeVariant: green
   disableSearch: false
   disableInlineCopyToClipBoard: true
-  author: Jason Ronallo
   showVisitedLinks: true
 
 menu:
