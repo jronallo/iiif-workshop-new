@@ -1,5 +1,24 @@
 # IIIF Workshop
 
+## beta version
+
+This is a beta version of migrating the materials from gitbook to Hugo. New development will happen here. Please try this version first and file issues. If you run into issues with the materials here you can try the [previous version](https://github.com/jronallo/iiif-workshop).
+
+## Introduction
+
+Materials for a workshop covering:
+- Image API
+- Presentation API
+- Content Search API
+- Authentication API (overview)
+- Community
+- and more!
+
+The latest version is currently [published here](http://ronallo.com/iiif-workshop-new).
+
+The workshop is designed to be led by an instructor who can answer questions and help with exercises, but it ought to be useful for self-guided learning as well.
+
+
 ## Development
 
 All that's needed to get started is having the `hugo` CLI available. Just run `hugo serve` and visit http://localhost:1313
