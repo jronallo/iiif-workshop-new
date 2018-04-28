@@ -1,1 +1,19 @@
 baseURL: https://ronallo.com/iiif-workshop-new/
+
+menu:
+  shortcuts:
+    - name: Mirador
+      url: "/iiif-workshop-new/viewers/mirador.html"
+      weight: 1
+    - name: Universal Viewer
+      url: "/iiif-workshop-new/viewers/uv.html"
+      weight: 1
+    - name: Feedback
+      url: "/iiif-workshop-new/links/feedback.html"
+      weight: 10
+    - name: Credits
+      url: "/iiif-workshop-new/links/credits.html"
+      weight: 20
+    - name: License
+      url: "/iiif-workshop-new/links/license.html"
+      weight: 30
