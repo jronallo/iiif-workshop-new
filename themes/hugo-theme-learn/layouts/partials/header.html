@@ -7,7 +7,7 @@
     {{ partial "meta.html" . }}
     {{ partial "favicon.html" . }}
     <title>{{ .Title }} :: {{ .Site.Title }}</title>
-    
+
     {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
     <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
     <link href="{{"css/font-awesome.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
@@ -22,9 +22,9 @@
     {{end}}
 
     <script src="{{"js/jquery-2.x.min.js"| relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script>
-    
+
     <style type="text/css">
-      :root #header + #content > #left > #rlblock_left{ 
+      :root #header + #content > #left > #rlblock_left{
           display:none !important;
       }
       {{ if .Site.Params.disableInlineCopyToClipBoard }}
@@ -66,7 +66,7 @@
                   <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
                   {{ end }}
                   <span class="links">
-                    {{ template "breadcrumb" dict "page" . "value" .Title }}   
+                    {{ template "breadcrumb" dict "page" . "value" .Title }}
                   </span>
                 </div>
                 {{ if $toc }}
@@ -80,6 +80,11 @@
           <div id="chapter">
         {{ end }}
         <div id="body-inner">
+
+          <!-- CHANGED: added a beta header -->
+          <!-- #todo:0 remove the beta header -->
+          {{ partial "beta-header.html" . }}
+
           {{if and (not .IsHome) (not .Params.chapter) }}
             <h1>{{.Title}}</h1>
           {{end}}
@@ -88,7 +93,7 @@
           {{$parent := .page.Parent }}
           {{ if $parent }}
             {{ $value := (printf "<a href='%s'>%s</a> > %s" $parent.URL $parent.Title .value) }}
-            {{ template "breadcrumb" dict "page" $parent "value" $value }} 
+            {{ template "breadcrumb" dict "page" $parent "value" $value }}
           {{else}}
             {{.value|safeHTML}}
           {{end}}
