@@ -2,12 +2,15 @@ baseURL: https://ronallo.com/iiif-workshop-new/
 
 menu:
   shortcuts:
-    - name: Mirador
-      url: "/iiif-workshop-new/viewers/mirador.html"
-      weight: 1
     - name: Universal Viewer
       url: "/iiif-workshop-new/viewers/uv.html"
       weight: 1
+    - name: Mirador
+      url: "/iiif-workshop-new/viewers/mirador.html"
+      weight: 2
+    - name: Guide for Implementers
+      url: "/iiif-workshop-new/guide-for-iiif-implementers.html"
+      weight: 5
     - name: Feedback
       url: "/iiif-workshop-new/links/feedback.html"
       weight: 10

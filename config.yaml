@@ -19,12 +19,15 @@ params:
 
 menu:
   shortcuts:
-    - name: Mirador
-      url: "/viewers/mirador.html"
-      weight: 1
     - name: Universal Viewer
       url: "/viewers/uv.html"
-      weight: 1
+      weight: 2
+    - name: Mirador
+      url: "/viewers/mirador.html"
+      weight: 3    
+    - name: Guide for Implementers
+      url: "/links/guide-for-iiif-implementers.html"
+      weight: 5
     - name: Feedback
       url: "/links/feedback.html"
       weight: 10

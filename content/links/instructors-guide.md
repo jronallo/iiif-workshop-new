@@ -2,6 +2,7 @@
 title: "Instructors' Guide"
 date: 2018-04-20T22:53:39-04:00
 weight: 1000
+hidden: true
 ---
 
 <!-- #todo:0 instructors' guide -->
