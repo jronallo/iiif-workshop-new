@@ -6,6 +6,8 @@ hidden: true
 chapter: false
 ---
 
+<!-- #todo:0 check the comments on the google doc: https://docs.google.com/document/d/1OXxPFrwTDPlx3EfrjEx0Vl5VMy20znfejnvCpmJfmcw/edit# -->
+
 See also [complete list of IIIF Specifications, including drafts](http://iiif.io/api/).
 
 So you've been [convinced of the benefits of the](http://preview.iiif.io/root/tech-details/community/faq/#what-are-the-benefits-of-iiif)[International Image Interoperability Framework](http://preview.iiif.io/root/tech-details/community/faq/#what-are-the-benefits-of-iiif), and you're ready to pursue implementing IIIF (pronounced "triple eye eff") for your own resources. This brief guide will lead you through some of the decision points to help get you going.
@@ -78,6 +80,10 @@ The [Content Search API](http://iiif.io/api/search/) allows for searching within
 
  The goal of IIIF is to be interoperable allowing sharing and user choice. To enable this sharing and make your image resources available to web applications hosted on other domains, you will also need to consider some technical details. Since most of the image viewers use JavaScript, your image server will need to support [cross-origin resource sharing (CORS)](http://enable-cors.org/). Additionally more websites are using HTTPS, and in order for your images and presentation manifest to be requested without [mixed content](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) issues they should also be delivered with HTTPS.
 
+ <!-- #todo:0 add a call to action at the end of the guide for implementers -->
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="display:inline;margin:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a> This work by Jason Ronallo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-Original by Jason Ronallo. Funded by IIIF-C.
+Original by Jason Ronallo. Funded by the [IIIF Consortium](http://iiif.io/community/consortium/) and the [American Art Collaborative](http://americanartcollaborative.org/).
+
+<!-- #todo:0 was any of the writing of this guide funded by the AAC or was it all IIIF-C -->
