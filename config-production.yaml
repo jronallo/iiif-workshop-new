@@ -9,7 +9,7 @@ menu:
       url: "/iiif-workshop-new/viewers/mirador.html"
       weight: 2
     - name: Guide for Implementers
-      url: "/iiif-workshop-new/guide-for-iiif-implementers.html"
+      url: "/iiif-workshop-new/links/guide-for-iiif-implementers.html"
       weight: 5
     - name: Feedback
       url: "/iiif-workshop-new/links/feedback.html"
