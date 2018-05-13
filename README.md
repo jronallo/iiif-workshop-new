@@ -33,6 +33,13 @@ You can check links with the `linkcheck.sh` script both with and without a netwo
 
 Run `./deploy.sh` which will build the site and sync it to the remote server.
 
+## Refresh Mirador
+
+These are the best instructions I've seen on what's required to get Mirador set up:
+https://github.com/ProjectMirador/mirador/blob/develop/bin/update_demo.sh
+
+First you must check out Mirador and run this: `npm i`
+
 ## TODOS
 
 #todo:40 for each section of workshop highlight the relevant section of the manifest for that page

@@ -1,5 +1,5 @@
 define(function() {
     return {
-        dependencies: ['l10n', 'pdf_combined', 'pdfobject', 'iiif-metadata-component']
+        async: ['!pdfjs-dist/build/pdf.combined', 'iiif-metadata-component']
     };
 });

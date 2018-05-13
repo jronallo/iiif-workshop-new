@@ -1,23 +1,27 @@
-// iiif-tree-component v1.0.7 https://github.com/viewdir/iiif-tree-component#readme
+// iiif-tree-component v1.1.6 https://github.com/iiif-commons/iiif-tree-component#readme
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.iiifTreeComponent = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function (global){
 
 
 
-
-
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var IIIFComponents;
 (function (IIIFComponents) {
-    var TreeComponent = (function (_super) {
+    var TreeComponent = /** @class */ (function (_super) {
         __extends(TreeComponent, _super);
         function TreeComponent(options) {
-            _super.call(this, options);
-            this._init();
+            var _this = _super.call(this, options) || this;
+            _this._init();
+            return _this;
         }
         TreeComponent.prototype._init = function () {
             var success = _super.prototype._init.call(this);
@@ -29,32 +33,32 @@ var IIIFComponents;
             this._$element.append(this._$tree);
             $.templates({
                 pageTemplate: '{^{for nodes}}\
-                                {^{tree/}}\
-                            {{/for}}',
+                                    {^{tree/}}\
+                                {{/for}}',
                 treeTemplate: '<li>\
-                                {^{if nodes && nodes.length}}\
-                                    <div class="toggle" data-link="class{merge:expanded toggle=\'expanded\'}"></div>\
-                                {{else}}\
-                                <div class="spacer"></div>\
-                                {{/if}}\
-                                {^{if multiSelectEnabled}}\
-                                    <input id="tree-checkbox-{{>id}}" type="checkbox" data-link="checked{:multiSelected ? \'checked\' : \'\'}" class="multiSelect" />\
-                                {{/if}}\
-                                {^{if selected}}\
-                                    <a id="tree-link-{{>id}}" href="#" title="{{>label}}" class="selected">{{>label}}</a>\
-                                {{else}}\
-                                    <a id="tree-link-{{>id}}" href="#" title="{{>label}}">{{>label}}</a>\
-                                {{/if}}\
-                            </li>\
-                            {^{if expanded}}\
-                                <li>\
-                                    <ul>\
-                                        {^{for nodes}}\
-                                            {^{tree/}}\
-                                        {{/for}}\
-                                    </ul>\
+                                    {^{if nodes && nodes.length}}\
+                                        <div class="toggle" data-link="class{merge:expanded toggle=\'expanded\'}"></div>\
+                                    {{else}}\
+                                    <div class="spacer"></div>\
+                                    {{/if}}\
+                                    {^{if multiSelectEnabled}}\
+                                        <input id="tree-checkbox-{{>id}}" type="checkbox" data-link="checked{:multiSelected ? \'checked\' : \'\'}" class="multiSelect" />\
+                                    {{/if}}\
+                                    {^{if selected}}\
+                                        <a id="tree-link-{{>id}}" href="#" title="{{>label}}" class="selected">{{>label}}</a>\
+                                    {{else}}\
+                                        <a id="tree-link-{{>id}}" href="#" title="{{>label}}">{{>label}}</a>\
+                                    {{/if}}\
                                 </li>\
-                            {{/if}}'
+                                {^{if expanded}}\
+                                    <li>\
+                                        <ul>\
+                                            {^{for nodes}}\
+                                                {^{tree/}}\
+                                            {{/for}}\
+                                        </ul>\
+                                    </li>\
+                                {{/if}}'
             });
             $.views.tags({
                 tree: {
@@ -68,7 +72,7 @@ var IIIFComponents;
                         if (node.isRange()) {
                             that._getMultiSelectState().selectRange(node.data, node.multiSelected);
                         }
-                        that._emit(TreeComponent.Events.TREE_NODE_MULTISELECTED, node);
+                        that.fire(TreeComponent.Events.TREE_NODE_MULTISELECTED, node);
                     },
                     init: function (tagCtx, linkCtx, ctx) {
                         this.data = tagCtx.view.data;
@@ -89,11 +93,11 @@ var IIIFComponents;
                             }
                             else {
                                 if (!node.nodes.length) {
-                                    that._emit(TreeComponent.Events.TREE_NODE_SELECTED, node);
+                                    that.fire(TreeComponent.Events.TREE_NODE_SELECTED, node);
                                     that.selectNode(node);
                                 }
-                                else if (that.options.branchNodesSelectable) {
-                                    that._emit(TreeComponent.Events.TREE_NODE_SELECTED, node);
+                                else if (that.options.data.branchNodesSelectable) {
+                                    that.fire(TreeComponent.Events.TREE_NODE_SELECTED, node);
                                     that.selectNode(node);
                                 }
                             }
@@ -106,30 +110,41 @@ var IIIFComponents;
             });
             return success;
         };
-        TreeComponent.prototype.databind = function () {
-            this._rootNode = this.options.helper.getTree(this.options.topRangeIndex, this.options.treeSortType);
+        TreeComponent.prototype.set = function (data) {
+            var _this = this;
+            this.options.data = data;
+            this._rootNode = this.options.data.helper.getTree(this.options.data.topRangeIndex, this.options.data.treeSortType);
             this._allNodes = null; // delete cache
             this._multiSelectableNodes = null; // delete cache
             this._$tree.link($.templates.pageTemplate, this._rootNode);
-        };
-        // todo: this should be removed in order to fit with the 'reactive' pattern
-        // all changes shold be a result of calling databind() with options/props. 
-        TreeComponent.prototype.updateMultiSelectState = function () {
-            var state = this._getMultiSelectState();
-            for (var i = 0; i < state.ranges.length; i++) {
-                var range = state.ranges[i];
-                var node = this._getMultiSelectableNodes().en().where(function (n) { return n.data.id === range.id; }).first();
+            var multiSelectState = this._getMultiSelectState();
+            var _loop_1 = function (i) {
+                var range = multiSelectState.ranges[i];
+                var node = this_1._getMultiSelectableNodes().en().where(function (n) { return n.data.id === range.id; }).first();
                 if (node) {
-                    this._setNodeMultiSelectEnabled(node, range.multiSelectEnabled);
-                    this._setNodeMultiSelected(node, range.multiSelected);
+                    this_1._setNodeMultiSelectEnabled(node, range.multiSelectEnabled);
+                    this_1._setNodeMultiSelected(node, range.multiSelected);
                 }
+            };
+            var this_1 = this;
+            for (var i = 0; i < multiSelectState.ranges.length; i++) {
+                _loop_1(i);
+            }
+            if (this.options.data.autoExpand) {
+                var allNodes = this._getAllNodes();
+                allNodes.forEach(function (node, index) {
+                    if (node.nodes.length) {
+                        _this._setNodeExpanded(node, true);
+                    }
+                });
             }
         };
         TreeComponent.prototype._getMultiSelectState = function () {
-            return this.options.helper.getMultiSelectState();
+            return this.options.data.helper.getMultiSelectState();
         };
-        TreeComponent.prototype._getDefaultOptions = function () {
+        TreeComponent.prototype.data = function () {
             return {
+                autoExpand: false,
                 branchNodesSelectable: true,
                 helper: null,
                 topRangeIndex: 0,
@@ -177,17 +192,17 @@ var IIIFComponents;
             }
         };
         // private _updateParentNodes(node: Manifold.ITreeNode): void {
-        //     var parentNode: Manifold.ITreeNode = <Manifold.ITreeNode>node.parentNode;
+        //     const parentNode: Manifold.ITreeNode = <Manifold.ITreeNode>node.parentNode;
         //     if (!parentNode) return;
         //     // expand parents if selected
         //     if (node.selected) {
         //         this._expandParents(node);
         //     }
         //     // get the number of selected children.
-        //     var checkedCount: number = parentNode.nodes.en().where(n => (<Manifold.ITreeNode>n).multiSelected).count();
+        //     const checkedCount: number = parentNode.nodes.en().where(n => (<Manifold.ITreeNode>n).multiSelected).count();
         //     // if any are checked, check the parent.
         //     this._setNodeMultiSelected(parentNode, checkedCount > 0);
-        //     var indeterminate: boolean = checkedCount > 0 && checkedCount < parentNode.nodes.length;
+        //     const indeterminate: boolean = checkedCount > 0 && checkedCount < parentNode.nodes.length;
         //     this._setNodeIndeterminate(parentNode, indeterminate);
         //     // cascade up tree
         //     this._updateParentNodes(parentNode);
@@ -214,14 +229,14 @@ var IIIFComponents;
             $.observable(node).setProperty("multiSelectEnabled", enabled);
         };
         // private _setNodeIndeterminate(node: Manifold.ITreeNode, indeterminate: boolean): void {
-        //     var $checkbox: JQuery = this._getNodeCheckbox(node);
+        //     const $checkbox: JQuery = this._getNodeCheckbox(node);
         //     $checkbox.prop("indeterminate", indeterminate);
         // }
         // private _getNodeCheckbox(node: Manifold.ITreeNode): JQuery {
         //     return $("#tree-checkbox-" + node.id);
         // }
         // private _getNodeSiblings(node: Manifold.ITreeNode): Manifold.ITreeNode[] {
-        //     var siblings: Manifold.ITreeNode[] = [];
+        //     const siblings: Manifold.ITreeNode[] = [];
         //     if (node.parentNode){
         //         siblings = <Manifold.ITreeNode[]>node.parentNode.nodes.en().where(n => n !== node).toArray();
         //     }
@@ -251,7 +266,7 @@ var IIIFComponents;
         TreeComponent.prototype.getNodeByPath = function (parentNode, path) {
             if (path.length === 0)
                 return parentNode;
-            var index = path.shift();
+            var index = Number(path.shift());
             var node = parentNode.nodes[index];
             return this.getNodeByPath(node, path);
         };
@@ -267,11 +282,10 @@ var IIIFComponents;
     }(_Components.BaseComponent));
     IIIFComponents.TreeComponent = TreeComponent;
 })(IIIFComponents || (IIIFComponents = {}));
-var IIIFComponents;
 (function (IIIFComponents) {
     var TreeComponent;
     (function (TreeComponent) {
-        var Events = (function () {
+        var Events = /** @class */ (function () {
             function Events() {
             }
             Events.TREE_NODE_MULTISELECTED = 'treeNodeMultiSelected';
@@ -281,14 +295,15 @@ var IIIFComponents;
         TreeComponent.Events = Events;
     })(TreeComponent = IIIFComponents.TreeComponent || (IIIFComponents.TreeComponent = {}));
 })(IIIFComponents || (IIIFComponents = {}));
-(function (w) {
-    if (!w.IIIFComponents) {
-        w.IIIFComponents = IIIFComponents;
+(function (g) {
+    if (!g.IIIFComponents) {
+        g.IIIFComponents = IIIFComponents;
     }
     else {
-        w.IIIFComponents.TreeComponent = IIIFComponents.TreeComponent;
+        g.IIIFComponents.TreeComponent = IIIFComponents.TreeComponent;
     }
-})(window);
+})(global);
 
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}]},{},[1])(1)
 });
