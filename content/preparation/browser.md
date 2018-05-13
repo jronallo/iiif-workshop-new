@@ -1,15 +1,27 @@
 ---
 title: "Browser"
 date: 2018-04-15T13:31:47-04:00
-weight: 10
+weight: 30
 ---
-
-Any recent version of Chrome or Firefox ought to work. Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server]({{<ref "web-server">}}) involves installing a Chrome extension, you may choose to use Chrome.
 
 Instructions have been tested with the following (and may work for versions just below):
 
-- Firefox 55
-- Chrome 60
+- Firefox 60
+- Chrome 66
+
+Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server]({{<ref "web-server">}}) involves installing a Chrome extension, you may choose to use Chrome.
+
+## Offline Mode
+
+When using the workshop materials in [local mode]({{<ref "offline">}}), you can use either Firefox or Chrome. Any recent version of Chrome or Firefox ought to work.
+
+## Online Mode
+
+When using these online instructions, ensure you're using them at an HTTP URL (`http://ronallo.com`) and not an HTTPS URL (`https://ronallo.com`). Our local JSON files will be served under HTTP and many IIIF resources on the web are still delivered via HTTP. Trying to deliver some HTTP resources to an HTTPS page results in mixed content security errors. Delivering the workshop materials via HTTP works around these issues for now.
+
+You can see more information on mixed content here: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content#Warnings_in_Web_Console
+
+Once some of these issues are better resolved in the client code used by this workshop and are handled similarly across browsers, the materials will be delivered via HTTPS.
 
 ## Viewing JSON
 

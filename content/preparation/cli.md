@@ -1,7 +1,7 @@
 ---
 title: "Command Line"
 date: 2018-04-15T13:31:55-04:00
-weight: 20
+weight: 40
 ---
 
 A few of the instructions in this workshop suggest navigating directories or creating files from a command line (aka terminal). Everything in this workshop can also be done in GUI applications.

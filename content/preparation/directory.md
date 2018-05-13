@@ -2,8 +2,12 @@
 title: "Web Server Directory"
 menuTitle: "Web Directory"
 date: 2018-04-15T13:32:10-04:00
-weight: 40
+weight: 20
 ---
+
+For some of the exercises we'll be creating JSON files. We will want to view our results in a IIIF viewer. These viewers request IIIF JSON files like manifests via HTTP(S). In order for the IIIF viewers to see our JSON files we will need to deliver them from a web server.
+
+The first step is setting up a directory where we can create our files and then pointing our web server to them.
 
 1. **Create a directory/folder named "iiif-workshop"**
 
