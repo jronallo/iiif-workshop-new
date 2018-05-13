@@ -1,4 +1,5 @@
 baseURL: http://ronallo.com/iiif-workshop-new/
+relativeURLs: false
 
 menu:
   shortcuts:
