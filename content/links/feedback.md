@@ -9,7 +9,7 @@ If you are using these workshop materials as part of an organized workshop, plea
 
 You can also [leave anonymous feedback about these workshop materials](https://docs.google.com/forms/d/e/1FAIpQLSe5QxhcHY_Lew4EOQrUQunqdLdKHpsTIhMK7rB-MQmF15pd2A/viewform?usp=sf_link).
 
-Please [add an issue](https://github.com/jronallo/iiif-workshop/issues) if you:
+Please [add an issue](https://github.com/jronallo/iiif-workshop-new/issues) if you:
 
 - see anything incorrect
 - can't get something to work

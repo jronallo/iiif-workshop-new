@@ -28,7 +28,7 @@ IIIF often requires pulling together people in different roles and data from dif
 
 Consider reaching out to the vendors of your current systems. They may already have a IIIF implementation as part of a recent version of their product, have an implementation in progress, or be considering developing one. Updating a product you already use may be easier than trying to implement new applications or developing something from scratch.
 
-You may also want to gain a greater familiarity with all of the terminology around IIIF. You can go through a [self-guided IIIF workshop](http://ronallo.com/iiif-workshop/) to gain a better understanding. Take a look at an [implementation guide](http://iiif.io/assets/acc_implementation_guide_011017.pdf) based on experience consulting with institutions on their own possible routes to implementation.
+You may also want to gain a greater familiarity with all of the terminology around IIIF. You can go through a [self-guided IIIF workshop](http://ronallo.com/iiif-workshop-new/) to gain a better understanding. Take a look at an [implementation guide](http://iiif.io/assets/acc_implementation_guide_011017.pdf) based on experience consulting with institutions on their own possible routes to implementation.
 
 ## Core APIs
 
@@ -52,7 +52,7 @@ What you create when you implement the Presentation API is a JSON document calle
 
 The data you'll need to create a presentation manifest for each resource may come from various systems within your environment. One element will be information about your Image API service. As there are so many different kinds of systems across so many different institutions there is no one way to implement other parts of presentation manifests. It often takes custom development to integrate data from different systems. There are some [presentation API libraries](https://github.com/IIIF/awesome-iiif#presentation-api-libraries) which might help with creating and validating your manifests. Again, check to see if any vended products you use support IIIF, as that may be the quickest path. Consider asking the IIIF community if anyone else is using the same or similar set of applications and how they were able to implement presentation manifests.
 
-Manifests are highly nested JSON documents and can seem complicated, but once you learn the terminology you can learn to easily read manifests. Go through the IIIF workshop to [learn how to create a simple manifest](http://ronallo.com/iiif-workshop/presentation/manifest.html) and you'll be on your way to understanding the main parts of manifests.
+Manifests are highly nested JSON documents and can seem complicated, but once you learn the terminology you can learn to easily read manifests. Go through the IIIF workshop to [learn how to create a simple manifest](http://ronallo.com/iiif-workshop-new/presentation-api/manifest.html) and you'll be on your way to understanding the main parts of manifests.
 
 Once you have a basic manifest working in a presentation viewer, you can come back later and implement other presentation features like [linking properties](http://iiif.io/api/presentation/2.1/#linking-properties). These include ways to link out to semantic descriptive metadata and renderings like PDFs. You can start with just some metadata and expand as you're able to integration your various systems.
 
