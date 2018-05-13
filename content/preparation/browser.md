@@ -11,9 +11,9 @@ Instructions have been tested with the following (and may work for versions just
 
 Having both browsers available can sometimes be useful. Since an easy way to launch a [simple web server]({{<ref "web-server">}}) involves installing a Chrome extension, you may choose to use Chrome.
 
-## Offline Mode
+## Local Mode
 
-When using the workshop materials in [local mode]({{<ref "offline">}}), you can use either Firefox or Chrome. Any recent version of Chrome or Firefox ought to work.
+When using the workshop materials in [local mode]({{<ref "local-mode">}}), you can use either Firefox or Chrome. Any recent version of Chrome or Firefox ought to work.
 
 ## Online Mode
 
