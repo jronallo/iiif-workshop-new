@@ -42,7 +42,7 @@ First you must check out Mirador and run this: `npm i`
 
 ## Refresh UV
 
-```
+```sh
 npm install universalviewer
 rm -rf static/viewers/uv
 cp -R node_modules/uv static/viewers/.
