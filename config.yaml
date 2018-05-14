@@ -24,7 +24,7 @@ menu:
       weight: 2
     - name: Mirador
       url: "/viewers/mirador.html"
-      weight: 3    
+      weight: 3
     - name: Guide for Implementers
       url: "/links/guide-for-iiif-implementers.html"
       weight: 5
