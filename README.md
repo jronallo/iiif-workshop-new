@@ -40,6 +40,14 @@ https://github.com/ProjectMirador/mirador/blob/develop/bin/update_demo.sh
 
 First you must check out Mirador and run this: `npm i`
 
+## Refresh UV
+
+```
+npm install universalviewer
+rm -rf static/viewers/uv
+cp -R node_modules/uv static/viewers/.
+```
+
 ## TODOS
 
 #todo:40 for each section of workshop highlight the relevant section of the manifest for that page
