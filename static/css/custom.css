@@ -41,3 +41,11 @@ div.notices.spec-info p {
 div.notices.spec-info p:first-child:after {
     content: 'Specification Information';
 }
+
+div.notices.challenge p {
+    border-top: 30px solid #2965ff;
+    background: #b9d1ff;
+}
+div.notices.challenge p:first-child:after {
+    content: 'Challenge';
+}

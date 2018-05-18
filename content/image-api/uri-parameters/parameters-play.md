@@ -109,7 +109,9 @@ You can also try manipulating these other images. Given is the scheme, server, a
 
 Start with the base URI add the image identifier and then add on the different Image API parameters.
 
-> Challenge: Try to use the region parameter to get a particular section of the image like a face or a painting in a painting.
+{{% notice challenge %}}
+  Try to use the region parameter to get a particular section of the image like a face or a painting in a painting.
+{{% /notice %}}
 
 **NCSU Libraries** `https://iiif.lib.ncsu.edu/iiif`
 
