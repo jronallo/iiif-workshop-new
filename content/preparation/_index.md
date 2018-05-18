@@ -22,3 +22,7 @@ That's it. With just those and a network connection you ought to be able to foll
 If you're unfamiliar with using a [command line interface]({{<ref "cli">}}), you may want to gain some familiarity.
 
 <!-- #backlog:10 If you would like to work on some of the more technical aspects of the workshop, please follow the [bonus setup](bonus-setup.md) instructions. -->
+
+<!-- #todo:0 add more to preparatory section about how the workshop materials work. headings and search. -->
+
+<!-- #todo:0 add more to preparatory section about brace matching, code folding, and linting in Atom -->

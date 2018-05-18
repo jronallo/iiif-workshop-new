@@ -63,3 +63,5 @@ cp -R node_modules/uv static/viewers/.
 #todo:0 take more long links and use the reference style markdown links
 
 #todo:0 run link checker
+
+#todo:0 highlight what has been added in a step in the full code at the bottom of the page
