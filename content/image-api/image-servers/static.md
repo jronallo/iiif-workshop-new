@@ -98,7 +98,7 @@ Open one of the sample images and pan and zoom around. Watch in the console as t
 
 > How does the client know what images to request?
 
-If you're on Linux or a Mac open up the starfish directory in a terminal and type type: `tree starfish`. You should see output of the directory structure and files that make up all of the tiles. Partial output looks like this:
+If you're on Linux or a Mac (you may need to install the tree commmand on a Mac, you can do it with Homebrew) open up the starfish directory in a terminal and type type: `tree starfish`. You should see output of the directory structure and files that make up all of the tiles. Partial output looks like this:
 
 ```
 starfish
