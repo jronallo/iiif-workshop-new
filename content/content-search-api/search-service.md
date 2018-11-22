@@ -8,12 +8,12 @@ weight: 20
 We're going to add a search service to our manifest now.
 
 {{% notice note %}}
-We only have one canvas which has much of any text and that's the only page we'll be able to search when we're done. That's just a limitation of our example and not the search API.
+We only have one canvas which hasn't much of any text and that's the only page we'll be able to search when we're done. That's just a limitation of our example and not the search API.
 {{% /notice %}}
 
 ## Prepare the Canvas
 
-Before can search we'll need to adjust our canvas to point to
+Before we can search we'll need to adjust our canvas to point to <!-- point to what? -->
 
 - Search for the canvas with the label of "table"
 - Change the `@id` for that canvas to https://d.lib.ncsu.edu/collections/canvas/segPap_003
