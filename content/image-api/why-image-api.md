@@ -22,7 +22,7 @@ IIIF standards for images solve a number of challenges with images on the web:
 - Supports rights
 - Supports tiling
 
-> IIIF doesn't just keep you out of silos; it keeps you out of dead ends. -- Richard Higgins, Durham Uniersity
+> IIIF doesn't just keep you out of silos; it keeps you out of dead ends. -- Richard Higgins, Durham University
 
 Even if you are already delivering deep zoom images, by adopting the IIIF Image API you will gain the ability to use a new range of viewers and tools. Your users will too.
 
