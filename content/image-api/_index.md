@@ -4,7 +4,7 @@ date: 2018-04-15T13:56:20-04:00
 weight: 5
 ---
 
-The Image API helps get the pixels of a digital image to a client like a browser. The purpose of the Image API is to standardized way to request the needed bits of a digital image.
+The Image API helps get the pixels of a digital image to a client like a browser. The purpose of the Image API is to present a standardized way to request the needed bits of a digital image.
 
 In this section you'll learn about [version 2.1.1 of the Image API](http://iiif.io/api/image/2.1/). You'll learn about:
 
