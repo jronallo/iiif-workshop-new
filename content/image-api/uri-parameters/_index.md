@@ -62,7 +62,7 @@ In this case we will add `iiif` to the path:
 
 This is whatever identifier you want to use. The combination of the scheme+server+prefix and the identifier should be unique in the world.
 
-The identifier muse be URI encoded if it includes spaces or slashes. <!-- (which you should probably not be adding to identifiers in any case) -->
+The identifier must be URI encoded if it includes spaces or slashes. <!-- (which you should probably not be adding to identifiers in any case) -->
 
 <div class="alert">https://iiif.lib.ncsu.edu/iiif/<strong>segPap_021</strong></div>
 
