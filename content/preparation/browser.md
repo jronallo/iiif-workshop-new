@@ -50,8 +50,7 @@ Sometimes the browser may cache a resource that you're working on that you've ch
 Alternatively you may want to try the following browser extensions:
 
 - Firefox: [Empty Cache Button](https://addons.mozilla.org/en-US/firefox/addon/empty-cache-button/)
-- Chrome: _Can anyone suggest a good cache clearing button for Chrome?_
-<!-- #backlog:370 Find a simple Chrome cache clearing extension -->
+- Chrome: Open the "Clear browsing data" window using `Cmd + Shift + Delete` on a Mac or `Ctrl + Shift + Delete` on a PC
 
 ## Ad Blockers
 
