@@ -50,7 +50,7 @@
     "json-schema-generator": "krg7880/json-schema-generator",
     "key-codes": "edsilv/key-codes",
     "less": "^2.4.0",
-    "lodash": "^3.1.0",
+    "lodash": "^4.17.15",
     "manifold": "viewdir/manifold#v1.1.12",
     "ncp": "^2.0.0",
     "openseadragon": "^2.2.1",
